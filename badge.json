@@ -391,19 +391,19 @@
     },
     {
       "id": "v-hdr10p", "name": "HDR10+", "groupId": "gv", "isEnabled": true,
-      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:hdr10(?:\\+|plus))(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision)(?:[\\s\\)\\]_.,\\-0-9]|$))",
+      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:hdr10[.\\- _]?(?:\\+|plus))(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision)(?:[\\s\\)\\]_.,\\-0-9]|$))",
       "imageURL": "https://files.catbox.moe/bqoap3.png",
       "tagColor": "#000000", "borderColor": "#176BE8", "textColor": "#FFFFFF", "tagStyle": "bordered", "type": "filter"
     },
     {
       "id": "v-hdr10", "name": "HDR10", "groupId": "gv", "isEnabled": true,
-      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:hdr10)(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision|hdr10(?:\\+|plus))(?:[\\s\\)\\]_.,\\-0-9]|$))",
+      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:hdr10)(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision|hdr10[.\\- _]?(?:\\+|plus))(?:[\\s\\)\\]_.,\\-0-9]|$))",
       "imageURL": "https://files.catbox.moe/zi2qrf.png",
       "tagColor": "#000000", "borderColor": "#176BE8", "textColor": "#FFFFFF", "tagStyle": "bordered", "type": "filter"
     },
     {
       "id": "v-hdr", "name": "HDR", "groupId": "gv", "isEnabled": true,
-      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:hdr|10bit|hi10p)(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision|hdr10)(?:[\\s\\)\\]_.,\\-0-9]|$))",
+      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:hdr|10bit|hi10p)(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision|hdr10[.\\- _]?(?:\\+|plus)?)(?:[\\s\\)\\]_.,\\-0-9]|$))",
       "imageURL": "https://files.catbox.moe/aygvl8.png",
       "tagColor": "#000000", "borderColor": "#2EB853", "textColor": "#FFFFFF", "tagStyle": "bordered", "type": "filter"
     },
