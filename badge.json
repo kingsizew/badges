@@ -504,7 +504,7 @@
     },
     {
       "id": "s-nflx", "name": "NETFLIX", "groupId": "gs", "isEnabled": true,
-      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:nflx|netflix)(?:[\\s\\)\\]_.,\\-0-9]|$))",
+      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:nflx|nf|netflix)(?:[\\s\\)\\]_.,\\-0-9]|$))",
       "imageURL": "https://raw.githubusercontent.com/danielsdian/ColorfulAndConcise/main/images/Netflix.png",
       "tagColor": "#00000000", "borderColor": "#E50914", "textColor": "#FFFFFF", "tagStyle": "bordered", "type": "filter"
     },
