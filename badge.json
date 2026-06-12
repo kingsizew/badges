@@ -682,12 +682,12 @@
       "type": "filter"
     },
     {
-      "id": "gv-10bit",
+      "id": "v-10bit",
       "name": "10bit",
       "groupId": "gv",
       "isEnabled": true,
       "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:10[\\-_. ]?bit|hi10p)(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision|hdr10[.\\- _]?(?:\\+|plus)|hdr10|hdr)(?:[\\s\\)\\]_.,\\-0-9]|$))",
-      "imageURL": "",
+      "imageURL": "https://files.catbox.moe/3etzny.png",
       "tagColor": "#000000",
       "borderColor": "#2EB853",
       "textColor": "#FFFFFF",
@@ -804,7 +804,7 @@
       "groupId": "ga",
       "isEnabled": true,
       "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:dts[\\-_. ]?es)(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:atmos|ddpa[0-9]?|dts[\\-_.: ]?x|true[\\s._\\-]?hd|dts[\\-_. ]?(?:hd[\\-_. ]?)?ma|flac|dts[\\-_. ]?hd)(?:[\\s\\)\\]_.,\\-0-9]|$))",
-      "imageURL": "",
+      "imageURL": "https://files.catbox.moe/1ssf92.png",
       "tagColor": "#000000",
       "borderColor": "#2EB853",
       "textColor": "#FFFFFF",
