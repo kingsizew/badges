@@ -712,7 +712,7 @@
       "name": "AI",
       "groupId": "gv",
       "isEnabled": true,
-      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:ai|ai[.\\- _]?(?:upscale(?:d)?|enhance(?:d)?|remaster(?:ed)?|generated)|(?:upscale(?:d)?|enhance(?:d)?|remaster(?:ed)?)[.\\- _]?ai)(?:[\\s\\)\\]_.,\\-0-9]|$))(?!.*(?:^|[\\s\\[(_.,\\-])(?:dv|dovi|dolby[.\\- _]?vision|hdr10[.\\- _]?(?:\\+|plus)|hdr10|hdr|hlg|hybrid[.\\- _]?log[.\\- _]?gamma|10[\\-_. ]?bit|hi10p|sdr)(?:[\\s\\)\\]_.,\\-0-9]|$))",
+      "pattern": "(?i)^(?=.*(?:^|[\\s\\[(_.,\\-])(?:ai|ai[.\\- _]?(?:upscale(?:d)?|enhance(?:d)?|remaster(?:ed)?|generated)|(?:upscale(?:d)?|enhance(?:d)?|remaster(?:ed)?)[.\\- _]?ai)(?:[\\s\\)\\]_.,\\-0-9]|$))",
       "imageURL": "https://files.catbox.moe/yadjsp.png",
       "tagColor": "#000000",
       "borderColor": "#E64141",
