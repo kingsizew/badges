@@ -3,16 +3,16 @@
     {
       "borderColor": "#000000",
       "color": "#000000",
-      "id": "gst",
-      "isExpanded": true,
-      "name": "Special Tags"
-    },
-    {
-      "borderColor": "#000000",
-      "color": "#000000",
       "id": "gms",
       "isExpanded": true,
       "name": "Media Source"
+    }
+    {
+      "borderColor": "#000000",
+      "color": "#000000",
+      "id": "gst",
+      "isExpanded": true,
+      "name": "Special Tags"
     },
     {
       "borderColor": "#000000",
