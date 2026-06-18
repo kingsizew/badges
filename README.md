@@ -139,7 +139,8 @@ from its original artwork:
 - 320 px output height
 - proportional scaling only
 - unused transparent canvas removed
-- small transparent safety margin retained
+- visible artwork capped at 70% of the canvas height
+- centered transparent safety margins on every side
 - premultiplied-alpha resampling to reduce edge halos
 - artwork, typography, layout, and colors preserved
 
