@@ -13,6 +13,21 @@ Use this raw JSON URL in Nuvio:
 https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
 ```
 
+## AIOStreams formatter
+
+An optional Nuvio-oriented AIOStreams formatter is included at
+[`aiostreams/nuvio-formatter.json`](aiostreams/nuvio-formatter.json).
+
+Raw formatter URL:
+
+```text
+https://raw.githubusercontent.com/kingsizew/badges/main/aiostreams/nuvio-formatter.json
+```
+
+The formatter displays resolution, quality, editions, Visual/Audio tags,
+languages, channels, subtitles, size, bitrate, source addon, indexer, release
+group, and other available stream metadata in a compact layout.
+
 ## Color scale
 
 | Tier | Color | Hex |
@@ -127,6 +142,8 @@ badge-images/
 └── manifest.json
 docs/
 └── nuvio-smart-tier-list.png
+aiostreams/
+└── nuvio-formatter.json
 ```
 
 | Category | Badges |
