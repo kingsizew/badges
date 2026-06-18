@@ -133,26 +133,16 @@ badge-images/
 
 ## Image standard
 
-Every image in [`badge-images`](badge-images) is a transparent PNG optimized
-from its original artwork:
-
-- 320 px output height
-- proportional scaling only
-- unused transparent canvas removed
-- visible artwork capped at 60% of the canvas height
-- centered transparent safety margins on every side
-- premultiplied-alpha resampling to reduce edge halos
-- artwork, typography, layout, and colors preserved
-
-The IMAX badge also includes safe horizontal padding so its first `I` is not
-clipped.
+Every image in [`badge-images`](badge-images) is the original PNG used by the
+ordered badge configuration. No resizing, cropping, padding, redrawing, or
+other visual transformation is applied.
 
 ## Direct image URLs
 
 Badge image URLs use GitHub raw links:
 
 ```text
-https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<badge-id>-v2.png
+https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<badge-id>-original.png
 ```
 
 The full ID-to-file mapping is available in
