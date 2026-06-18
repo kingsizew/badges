@@ -440,6 +440,36 @@
     "height": 320
   },
   {
+    "id": "v-dv-hdr10p",
+    "name": "DV · HDR10+",
+    "groupId": "gv",
+    "groupFolder": "visual",
+    "path": "badge-images/visual/v-dv-hdr10p.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-dv-hdr10p.png",
+    "width": 260,
+    "height": 80
+  },
+  {
+    "id": "v-dv-hdr10",
+    "name": "DV · HDR10",
+    "groupId": "gv",
+    "groupFolder": "visual",
+    "path": "badge-images/visual/v-dv-hdr10.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-dv-hdr10.png",
+    "width": 260,
+    "height": 80
+  },
+  {
+    "id": "v-dv-hdr",
+    "name": "DV · HDR",
+    "groupId": "gv",
+    "groupFolder": "visual",
+    "path": "badge-images/visual/v-dv-hdr.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-dv-hdr.png",
+    "width": 260,
+    "height": 80
+  },
+  {
     "id": "a-dv",
     "name": "DV",
     "groupId": "gv",

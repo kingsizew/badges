@@ -1,24 +1,17 @@
 # Kingsize Badges
 
-A high-resolution stream badge package for Nuvio, designed to remain clear
-across mobile, desktop, and TV layouts.
+A stream badge package for Nuvio with **89 badges**, compact Visual/Audio
+selection logic, color-tier ordering, and locally hosted PNG assets.
 
-The package contains **86 badges** covering source, resolution, quality,
-visual formats, audio formats, channels, codecs, streaming services, and
-special release tags.
-
-![Nuvio Smart Tier List](docs/nuvio-smart-tier-list.png)
+![Nuvio Compact Smart Tier List](docs/nuvio-smart-tier-list.png)
 
 ## Install
 
-Use the raw JSON URL:
+Use this raw JSON URL in Nuvio:
 
 ```text
 https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
 ```
-
-You can also download [`badge.json`](badge.json) directly from this
-repository.
 
 ## Color scale
 
@@ -30,76 +23,91 @@ repository.
 | T4 | Orange | `#FF7300` |
 | T5 | Red | `#E64141` |
 
-Filters inside the Visual and Audio groups are ordered by tier so displayed
-badges appear as gold, blue, green, orange, and red blocks rather than mixed
-colors.
+Visual and Audio filters are ordered as Gold → Blue → Green → Orange → Red.
 
-## Smart Visual hierarchy
+## Compact Visual hierarchy
 
-The Visual group is not a single linear hierarchy.
-
-### HDR family
+Visual uses one global hierarchy and displays **a maximum of one badge**:
 
 ```text
-HDR10+ > HDR10 > HDR > SDR
+DV · HDR10+
+> DV · HDR10
+> DV · HDR
+> Dolby Vision
+> HDR10+
+> HDR10
+> HDR
+> HLG
+> 10bit
+> SDR
+> AI
 ```
 
-Only the highest matching badge in this family is displayed.
+The merged badges preserve useful compatibility information without adding a
+second Visual chip:
 
-### Independent Visual properties
+- Dolby Vision + HDR10+ becomes **DV · HDR10+**
+- Dolby Vision + HDR10 becomes **DV · HDR10**
+- Dolby Vision + generic HDR becomes **DV · HDR**
 
-- Dolby Vision
-- HLG
-- 10bit
-- AI
+HLG, 10bit, SDR, and AI are fallback formats. They appear only when no
+higher Visual format from the hierarchy is detected.
 
-These represent separate properties and may appear together with the selected
-HDR-family badge.
+## Compact Audio selection
 
-## Smart Audio hierarchy
-
-Audio uses independent branches. The highest matching badge in each branch is
-displayed, while badges from different branches may appear together.
+Audio displays **a maximum of two badges**.
 
 ### Dolby branch
 
 ```text
-Atmos TrueHD
-Atmos Digital+
-Atmos
-TrueHD
-DD+
-DD
+Atmos · TrueHD
+> Atmos · Digital+
+> Atmos
+> TrueHD
+> DD+
+> DD
 ```
-
-- `Atmos + TrueHD` becomes the combined **Atmos TrueHD** badge.
-- `Atmos + DD+` becomes the combined **Atmos Digital+** badge.
-- Standalone Atmos remains available when the carrier codec is not named.
 
 ### DTS branch
 
 ```text
-DTS:X HD MA
-DTS:X HD
-DTS:X
-DTS-HD MA
-DTS-HD
-DTS-ES
-DTS
+DTS:X · HD MA
+> DTS:X · HD
+> DTS:X
+> DTS-HD MA
+> DTS-HD
+> DTS-ES
+> DTS
 ```
 
-- `DTS:X + DTS-HD MA` becomes **DTS:X HD MA**.
-- `DTS:X + DTS-HD` becomes **DTS:X HD**.
-- Standalone DTS:X remains available when the carrier format is not named.
+Each branch first selects its own best match.
 
-### Independent codec branch
+### Codec behavior
 
 ```text
 FLAC > Opus > AAC
 ```
 
-This branch is independent from Dolby and DTS, allowing meaningful
-multi-track information to remain visible.
+- **FLAC** is a T2 lossless candidate and competes with the Dolby and DTS
+  winners for one of the two visible Audio positions.
+- **Opus** and **AAC** are fallback codecs. They appear only when neither a
+  Dolby nor a DTS format is detected.
+- When Dolby, DTS, and FLAC all match, the two highest-tier candidates are
+  displayed.
+- Equal-tier Dolby/DTS formats take priority over FLAC because they provide
+  more specific device and home-theater compatibility information.
+
+Examples:
+
+| Detected | Displayed |
+|---|---|
+| Atmos TrueHD + DTS:X HD MA + FLAC | Atmos · TrueHD + DTS:X · HD MA |
+| Atmos TrueHD + DTS-HD + FLAC | Atmos · TrueHD + FLAC |
+| DD+ + DTS-HD + FLAC | DTS-HD + FLAC |
+| DD+ + DTS-ES + FLAC | DD+ + FLAC |
+| DTS + Opus | DTS |
+| Opus + AAC | Opus |
+| FLAC + Opus + AAC | FLAC |
 
 ## Repository structure
 
@@ -117,6 +125,8 @@ badge-images/
 ├── encoder/
 ├── streaming/
 └── manifest.json
+docs/
+└── nuvio-smart-tier-list.png
 ```
 
 | Category | Badges |
@@ -126,36 +136,36 @@ badge-images/
 | Resolution | 9 |
 | Quality | 12 |
 | IMAX | 2 |
-| Visual | 8 |
+| Visual | 11 |
 | Audio | 16 |
 | Channels | 4 |
 | Encoder | 5 |
 | Streaming | 9 |
-| **Total** | **86** |
+| **Total** | **89** |
 
 ## Image standard
 
-Every image in [`badge-images`](badge-images) is the original PNG used by the
-ordered badge configuration. No resizing, cropping, padding, redrawing, or
-other visual transformation is applied, except for the standard IMAX badge,
-which has 16 px of transparent left padding to prevent its first `I` from
-touching the image edge.
+The package preserves the original PNG artwork. The only intentional
+exceptions are:
+
+- the three custom merged Dolby Vision/HDR badges;
+- the standard IMAX badge, which has 16 px of transparent left padding so its
+  first `I` does not touch the image edge.
 
 ## Direct image URLs
 
-Badge image URLs use GitHub raw links:
+Badge image URLs use GitHub Raw:
 
 ```text
-https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<badge-id>-original.png
+https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<filename>.png
 ```
 
-The full ID-to-file mapping is available in
+The complete mapping is available in
 [`badge-images/manifest.json`](badge-images/manifest.json).
 
 ## Notes
 
-- Badge matching is filename/metadata based.
-- Multiple independent Visual or Audio properties can appear simultaneously.
-- Combined immersive-audio badges suppress their redundant component badges.
-- Product and service names, logos, and trademarks belong to their respective
-  owners.
+- Matching evaluates the filename and supplied stream metadata.
+- Combined badges suppress their redundant component badges.
+- Product names, service names, logos, and trademarks belong to their
+  respective owners.
