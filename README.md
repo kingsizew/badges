@@ -42,7 +42,7 @@ Visual and Audio filters are ordered as Gold → Blue → Green → Orange → R
 
 ## Compact Visual hierarchy
 
-Visual uses one global hierarchy and displays **a maximum of one badge**:
+Visual uses one global compatibility-aware hierarchy:
 
 ```text
 DV · HDR10+
@@ -69,8 +69,6 @@ HLG, 10bit, SDR, and AI are fallback formats. They appear only when no
 higher Visual format from the hierarchy is detected.
 
 ## Compact Audio selection
-
-Audio displays **a maximum of two badges**.
 
 ### Dolby branch
 
@@ -104,11 +102,11 @@ FLAC > Opus > AAC
 ```
 
 - **FLAC** is a T2 lossless candidate and competes with the Dolby and DTS
-  winners for one of the two visible Audio positions.
+  winners during Audio selection.
 - **Opus** and **AAC** are fallback codecs. They appear only when neither a
   Dolby nor a DTS format is detected.
-- When Dolby, DTS, and FLAC all match, the two highest-tier candidates are
-  displayed.
+- When Dolby, DTS, and FLAC all match, lower-priority candidates are
+  suppressed.
 - Equal-tier Dolby/DTS formats take priority over FLAC because they provide
   more specific device and home-theater compatibility information.
 
