@@ -4,9 +4,9 @@
     "name": "SEADEX",
     "groupId": "gst",
     "groupFolder": "special-tags",
-    "path": "badge-images/special-tags/seadex-release.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/seadex-release.png",
-    "width": 1198,
+    "path": "badge-images/special-tags/seadex-release-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/seadex-release-v2.png",
+    "width": 1074,
     "height": 320
   },
   {
@@ -14,9 +14,9 @@
     "name": "DIR CUT",
     "groupId": "gst",
     "groupFolder": "special-tags",
-    "path": "badge-images/special-tags/edition-directors-cut.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/edition-directors-cut.png",
-    "width": 688,
+    "path": "badge-images/special-tags/edition-directors-cut-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/edition-directors-cut-v2.png",
+    "width": 720,
     "height": 320
   },
   {
@@ -24,9 +24,9 @@
     "name": "EXTENDED",
     "groupId": "gst",
     "groupFolder": "special-tags",
-    "path": "badge-images/special-tags/edition-extended.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/edition-extended.png",
-    "width": 520,
+    "path": "badge-images/special-tags/edition-extended-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/edition-extended-v2.png",
+    "width": 536,
     "height": 320
   },
   {
@@ -34,9 +34,9 @@
     "name": "THTR",
     "groupId": "gst",
     "groupFolder": "special-tags",
-    "path": "badge-images/special-tags/edition-theatrical.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/edition-theatrical.png",
-    "width": 692,
+    "path": "badge-images/special-tags/edition-theatrical-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/special-tags/edition-theatrical-v2.png",
+    "width": 724,
     "height": 320
   },
   {
@@ -44,9 +44,9 @@
     "name": "REMUX 1",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/remux-1.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/remux-1.png",
-    "width": 358,
+    "path": "badge-images/media-source/remux-1-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/remux-1-v2.png",
+    "width": 332,
     "height": 320
   },
   {
@@ -54,9 +54,9 @@
     "name": "REMUX 2",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/remux-2.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/remux-2.png",
-    "width": 404,
+    "path": "badge-images/media-source/remux-2-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/remux-2-v2.png",
+    "width": 371,
     "height": 320
   },
   {
@@ -64,9 +64,9 @@
     "name": "REMUX 3",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/remux-3.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/remux-3.png",
-    "width": 404,
+    "path": "badge-images/media-source/remux-3-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/remux-3-v2.png",
+    "width": 371,
     "height": 320
   },
   {
@@ -74,9 +74,9 @@
     "name": "BLU-RAY 1",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-1.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-1.png",
-    "width": 303,
+    "path": "badge-images/media-source/blu-ray-1-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-1-v2.png",
+    "width": 285,
     "height": 320
   },
   {
@@ -84,9 +84,9 @@
     "name": "BLU-RAY 2",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-2.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-2.png",
-    "width": 346,
+    "path": "badge-images/media-source/blu-ray-2-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-2-v2.png",
+    "width": 322,
     "height": 320
   },
   {
@@ -94,9 +94,9 @@
     "name": "BLU-RAY 3",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-3.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-3.png",
-    "width": 354,
+    "path": "badge-images/media-source/blu-ray-3-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-3-v2.png",
+    "width": 328,
     "height": 320
   },
   {
@@ -104,9 +104,9 @@
     "name": "BLU-RAY 4",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-4.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-4.png",
-    "width": 369,
+    "path": "badge-images/media-source/blu-ray-4-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-4-v2.png",
+    "width": 342,
     "height": 320
   },
   {
@@ -114,9 +114,9 @@
     "name": "BLU-RAY 5",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-5.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-5.png",
-    "width": 354,
+    "path": "badge-images/media-source/blu-ray-5-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-5-v2.png",
+    "width": 328,
     "height": 320
   },
   {
@@ -124,9 +124,9 @@
     "name": "BLU-RAY 6",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-6.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-6.png",
-    "width": 354,
+    "path": "badge-images/media-source/blu-ray-6-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-6-v2.png",
+    "width": 328,
     "height": 320
   },
   {
@@ -134,9 +134,9 @@
     "name": "BLU-RAY 7",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-7.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-7.png",
-    "width": 346,
+    "path": "badge-images/media-source/blu-ray-7-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-7-v2.png",
+    "width": 322,
     "height": 320
   },
   {
@@ -144,9 +144,9 @@
     "name": "BLU-RAY 8",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/blu-ray-8.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-8.png",
-    "width": 361,
+    "path": "badge-images/media-source/blu-ray-8-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/blu-ray-8-v2.png",
+    "width": 335,
     "height": 320
   },
   {
@@ -154,9 +154,9 @@
     "name": "WEB 1",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/web-1.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-1.png",
-    "width": 311,
+    "path": "badge-images/media-source/web-1-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-1-v2.png",
+    "width": 292,
     "height": 320
   },
   {
@@ -164,9 +164,9 @@
     "name": "WEB 2",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/web-2.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-2.png",
-    "width": 354,
+    "path": "badge-images/media-source/web-2-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-2-v2.png",
+    "width": 328,
     "height": 320
   },
   {
@@ -174,9 +174,9 @@
     "name": "WEB 3",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/web-3.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-3.png",
-    "width": 361,
+    "path": "badge-images/media-source/web-3-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-3-v2.png",
+    "width": 335,
     "height": 320
   },
   {
@@ -184,9 +184,9 @@
     "name": "WEB 4",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/web-4.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-4.png",
-    "width": 377,
+    "path": "badge-images/media-source/web-4-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-4-v2.png",
+    "width": 348,
     "height": 320
   },
   {
@@ -194,9 +194,9 @@
     "name": "WEB 5",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/web-5.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-5.png",
-    "width": 361,
+    "path": "badge-images/media-source/web-5-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-5-v2.png",
+    "width": 335,
     "height": 320
   },
   {
@@ -204,9 +204,9 @@
     "name": "WEB 6",
     "groupId": "gms",
     "groupFolder": "media-source",
-    "path": "badge-images/media-source/web-6.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-6.png",
-    "width": 361,
+    "path": "badge-images/media-source/web-6-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/media-source/web-6-v2.png",
+    "width": 335,
     "height": 320
   },
   {
@@ -214,9 +214,9 @@
     "name": "4K",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-4k.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-4k.png",
-    "width": 312,
+    "path": "badge-images/resolution/r-4k-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-4k-v2.png",
+    "width": 328,
     "height": 320
   },
   {
@@ -224,9 +224,9 @@
     "name": "1440p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-1440p.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-1440p.png",
-    "width": 336,
+    "path": "badge-images/resolution/r-1440p-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-1440p-v2.png",
+    "width": 352,
     "height": 320
   },
   {
@@ -234,9 +234,9 @@
     "name": "1080p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-1080.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-1080.png",
-    "width": 484,
+    "path": "badge-images/resolution/r-1080-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-1080-v2.png",
+    "width": 500,
     "height": 320
   },
   {
@@ -244,9 +244,9 @@
     "name": "720p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-720.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-720.png",
-    "width": 344,
+    "path": "badge-images/resolution/r-720-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-720-v2.png",
+    "width": 360,
     "height": 320
   },
   {
@@ -254,9 +254,9 @@
     "name": "576p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-576p.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-576p.png",
-    "width": 638,
+    "path": "badge-images/resolution/r-576p-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-576p-v2.png",
+    "width": 572,
     "height": 320
   },
   {
@@ -264,9 +264,9 @@
     "name": "480p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-480p.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-480p.png",
-    "width": 642,
+    "path": "badge-images/resolution/r-480p-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-480p-v2.png",
+    "width": 575,
     "height": 320
   },
   {
@@ -274,9 +274,9 @@
     "name": "360p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-360p.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-360p.png",
-    "width": 630,
+    "path": "badge-images/resolution/r-360p-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-360p-v2.png",
+    "width": 565,
     "height": 320
   },
   {
@@ -284,9 +284,9 @@
     "name": "240p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-240p.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-240p.png",
-    "width": 628,
+    "path": "badge-images/resolution/r-240p-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-240p-v2.png",
+    "width": 563,
     "height": 320
   },
   {
@@ -294,9 +294,9 @@
     "name": "144p",
     "groupId": "gr",
     "groupFolder": "resolution",
-    "path": "badge-images/resolution/r-144p.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-144p.png",
-    "width": 602,
+    "path": "badge-images/resolution/r-144p-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/resolution/r-144p-v2.png",
+    "width": 541,
     "height": 320
   },
   {
@@ -304,9 +304,9 @@
     "name": "Remux",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/q-r.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/q-r.png",
-    "width": 1131,
+    "path": "badge-images/quality/q-r-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/q-r-v2.png",
+    "width": 1014,
     "height": 320
   },
   {
@@ -314,9 +314,9 @@
     "name": "BluRay",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/q-b.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/q-b.png",
-    "width": 1061,
+    "path": "badge-images/quality/q-b-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/q-b-v2.png",
+    "width": 951,
     "height": 320
   },
   {
@@ -324,9 +324,9 @@
     "name": "WEB-DL",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/q-w.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/q-w.png",
-    "width": 1153,
+    "path": "badge-images/quality/q-w-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/q-w-v2.png",
+    "width": 1032,
     "height": 320
   },
   {
@@ -334,9 +334,9 @@
     "name": "WEBRip",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/src-webrip.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-webrip.png",
-    "width": 1078,
+    "path": "badge-images/quality/src-webrip-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-webrip-v2.png",
+    "width": 967,
     "height": 320
   },
   {
@@ -344,9 +344,9 @@
     "name": "HDRip",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/src-hdrip.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-hdrip.png",
-    "width": 1029,
+    "path": "badge-images/quality/src-hdrip-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-hdrip-v2.png",
+    "width": 922,
     "height": 320
   },
   {
@@ -354,9 +354,9 @@
     "name": "HC HDRip",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/gq-hc-hdrip.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-hc-hdrip.png",
-    "width": 1397,
+    "path": "badge-images/quality/gq-hc-hdrip-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-hc-hdrip-v2.png",
+    "width": 1251,
     "height": 320
   },
   {
@@ -364,9 +364,9 @@
     "name": "DVDRip",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/src-dvdrip.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-dvdrip.png",
-    "width": 1192,
+    "path": "badge-images/quality/src-dvdrip-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-dvdrip-v2.png",
+    "width": 1068,
     "height": 320
   },
   {
@@ -374,9 +374,9 @@
     "name": "HDTV",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/src-hdtv.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-hdtv.png",
-    "width": 1048,
+    "path": "badge-images/quality/src-hdtv-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/src-hdtv-v2.png",
+    "width": 1030,
     "height": 320
   },
   {
@@ -384,9 +384,9 @@
     "name": "SCR",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/gq-scr.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-scr.png",
-    "width": 776,
+    "path": "badge-images/quality/gq-scr-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-scr-v2.png",
+    "width": 812,
     "height": 320
   },
   {
@@ -394,9 +394,9 @@
     "name": "TC",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/gq-tc.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-tc.png",
-    "width": 568,
+    "path": "badge-images/quality/gq-tc-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-tc-v2.png",
+    "width": 584,
     "height": 320
   },
   {
@@ -404,9 +404,9 @@
     "name": "TS",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/gq-ts.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-ts.png",
-    "width": 564,
+    "path": "badge-images/quality/gq-ts-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-ts-v2.png",
+    "width": 580,
     "height": 320
   },
   {
@@ -414,9 +414,9 @@
     "name": "CAM",
     "groupId": "gq",
     "groupFolder": "quality",
-    "path": "badge-images/quality/gq-cam.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-cam.png",
-    "width": 870,
+    "path": "badge-images/quality/gq-cam-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/quality/gq-cam-v2.png",
+    "width": 910,
     "height": 320
   },
   {
@@ -424,9 +424,9 @@
     "name": "IMAX Enhanced",
     "groupId": "imax",
     "groupFolder": "imax",
-    "path": "badge-images/imax/v-imax-e-2.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-e-2.png",
-    "width": 721,
+    "path": "badge-images/imax/v-imax-e-2-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-e-2-v2.png",
+    "width": 644,
     "height": 320
   },
   {
@@ -434,9 +434,9 @@
     "name": "IMAX",
     "groupId": "imax",
     "groupFolder": "imax",
-    "path": "badge-images/imax/v-imax-2.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-2.png",
-    "width": 1078,
+    "path": "badge-images/imax/v-imax-2-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-2-v2.png",
+    "width": 1128,
     "height": 320
   },
   {
@@ -444,9 +444,9 @@
     "name": "DV",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/a-dv.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/a-dv.png",
-    "width": 616,
+    "path": "badge-images/visual/a-dv-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/a-dv-v2.png",
+    "width": 553,
     "height": 320
   },
   {
@@ -454,9 +454,9 @@
     "name": "HDR10+",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/v-hdr10p.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hdr10p.png",
-    "width": 1306,
+    "path": "badge-images/visual/v-hdr10p-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hdr10p-v2.png",
+    "width": 1364,
     "height": 320
   },
   {
@@ -464,9 +464,9 @@
     "name": "HDR10",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/v-hdr10.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hdr10.png",
-    "width": 1190,
+    "path": "badge-images/visual/v-hdr10-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hdr10-v2.png",
+    "width": 1244,
     "height": 320
   },
   {
@@ -474,9 +474,9 @@
     "name": "HDR",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/v-hdr.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hdr.png",
-    "width": 840,
+    "path": "badge-images/visual/v-hdr-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hdr-v2.png",
+    "width": 876,
     "height": 320
   },
   {
@@ -484,9 +484,9 @@
     "name": "HLG",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/v-hlg.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hlg.png",
-    "width": 794,
+    "path": "badge-images/visual/v-hlg-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-hlg-v2.png",
+    "width": 830,
     "height": 320
   },
   {
@@ -494,9 +494,9 @@
     "name": "10bit",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/v-10bit.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-10bit.png",
-    "width": 964,
+    "path": "badge-images/visual/v-10bit-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-10bit-v2.png",
+    "width": 1006,
     "height": 320
   },
   {
@@ -504,9 +504,9 @@
     "name": "SDR",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/v-sdr.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-sdr.png",
-    "width": 826,
+    "path": "badge-images/visual/v-sdr-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-sdr-v2.png",
+    "width": 864,
     "height": 320
   },
   {
@@ -514,9 +514,9 @@
     "name": "AI",
     "groupId": "gv",
     "groupFolder": "visual",
-    "path": "badge-images/visual/v-ai.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-ai.png",
-    "width": 524,
+    "path": "badge-images/visual/v-ai-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/v-ai-v2.png",
+    "width": 540,
     "height": 320
   },
   {
@@ -524,9 +524,9 @@
     "name": "ATMOS TRUEHD",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-atmos-truehd.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-atmos-truehd.png",
-    "width": 928,
+    "path": "badge-images/audio/a-atmos-truehd-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-atmos-truehd-v2.png",
+    "width": 831,
     "height": 320
   },
   {
@@ -534,9 +534,9 @@
     "name": "DTS:X HD MA",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dtsx-hdma.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsx-hdma.png",
-    "width": 576,
+    "path": "badge-images/audio/a-dtsx-hdma-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsx-hdma-v2.png",
+    "width": 519,
     "height": 320
   },
   {
@@ -544,9 +544,9 @@
     "name": "ATMOS DIGITAL+",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-atmos-ddplus.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-atmos-ddplus.png",
-    "width": 1038,
+    "path": "badge-images/audio/a-atmos-ddplus-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-atmos-ddplus-v2.png",
+    "width": 930,
     "height": 320
   },
   {
@@ -554,9 +554,9 @@
     "name": "DTS:X HD",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dtsx-hd.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsx-hd.png",
-    "width": 569,
+    "path": "badge-images/audio/a-dtsx-hd-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsx-hd-v2.png",
+    "width": 513,
     "height": 320
   },
   {
@@ -564,9 +564,9 @@
     "name": "Atmos",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-at.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-at.png",
-    "width": 616,
+    "path": "badge-images/audio/a-at-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-at-v2.png",
+    "width": 553,
     "height": 320
   },
   {
@@ -574,9 +574,9 @@
     "name": "DTS:X",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dtsx.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsx.png",
-    "width": 1169,
+    "path": "badge-images/audio/a-dtsx-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsx-v2.png",
+    "width": 1221,
     "height": 320
   },
   {
@@ -584,9 +584,9 @@
     "name": "TrueHD",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-th.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-th.png",
-    "width": 616,
+    "path": "badge-images/audio/a-th-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-th-v2.png",
+    "width": 553,
     "height": 320
   },
   {
@@ -594,9 +594,9 @@
     "name": "DTS-HD MA",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dtsma.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsma.png",
-    "width": 1478,
+    "path": "badge-images/audio/a-dtsma-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtsma-v2.png",
+    "width": 1546,
     "height": 320
   },
   {
@@ -604,9 +604,9 @@
     "name": "FLAC",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-flac.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-flac.png",
-    "width": 920,
+    "path": "badge-images/audio/a-flac-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-flac-v2.png",
+    "width": 960,
     "height": 320
   },
   {
@@ -614,9 +614,9 @@
     "name": "DTS-HD",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dtshd.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtshd.png",
-    "width": 1237,
+    "path": "badge-images/audio/a-dtshd-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dtshd-v2.png",
+    "width": 1293,
     "height": 320
   },
   {
@@ -624,9 +624,9 @@
     "name": "DD+",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dp.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dp.png",
-    "width": 616,
+    "path": "badge-images/audio/a-dp-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dp-v2.png",
+    "width": 553,
     "height": 320
   },
   {
@@ -634,9 +634,9 @@
     "name": "DTS-ES",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/gv-dts-es.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/gv-dts-es.png",
-    "width": 1232,
+    "path": "badge-images/audio/gv-dts-es-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/gv-dts-es-v2.png",
+    "width": 1288,
     "height": 320
   },
   {
@@ -644,9 +644,9 @@
     "name": "DTS",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dts.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dts.png",
-    "width": 889,
+    "path": "badge-images/audio/a-dts-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dts-v2.png",
+    "width": 929,
     "height": 320
   },
   {
@@ -654,9 +654,9 @@
     "name": "OPUS",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-opus.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-opus.png",
-    "width": 964,
+    "path": "badge-images/audio/a-opus-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-opus-v2.png",
+    "width": 1006,
     "height": 320
   },
   {
@@ -664,9 +664,9 @@
     "name": "DD",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-dd.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dd.png",
-    "width": 616,
+    "path": "badge-images/audio/a-dd-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-dd-v2.png",
+    "width": 553,
     "height": 320
   },
   {
@@ -674,9 +674,9 @@
     "name": "AAC",
     "groupId": "ga",
     "groupFolder": "audio",
-    "path": "badge-images/audio/a-aac.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-aac.png",
-    "width": 786,
+    "path": "badge-images/audio/a-aac-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/a-aac-v2.png",
+    "width": 822,
     "height": 320
   },
   {
@@ -684,9 +684,9 @@
     "name": "7.1",
     "groupId": "gc",
     "groupFolder": "channels",
-    "path": "badge-images/channels/ch-71.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-71.png",
-    "width": 666,
+    "path": "badge-images/channels/ch-71-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-71-v2.png",
+    "width": 696,
     "height": 320
   },
   {
@@ -694,9 +694,9 @@
     "name": "6.1",
     "groupId": "gc",
     "groupFolder": "channels",
-    "path": "badge-images/channels/ch-61.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-61.png",
-    "width": 674,
+    "path": "badge-images/channels/ch-61-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-61-v2.png",
+    "width": 706,
     "height": 320
   },
   {
@@ -704,9 +704,9 @@
     "name": "5.1",
     "groupId": "gc",
     "groupFolder": "channels",
-    "path": "badge-images/channels/ch-51.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-51.png",
-    "width": 674,
+    "path": "badge-images/channels/ch-51-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-51-v2.png",
+    "width": 706,
     "height": 320
   },
   {
@@ -714,9 +714,9 @@
     "name": "2.0",
     "groupId": "gc",
     "groupFolder": "channels",
-    "path": "badge-images/channels/ch-20.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-20.png",
-    "width": 684,
+    "path": "badge-images/channels/ch-20-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/channels/ch-20-v2.png",
+    "width": 714,
     "height": 320
   },
   {
@@ -724,9 +724,9 @@
     "name": "AV1",
     "groupId": "ge",
     "groupFolder": "encoder",
-    "path": "badge-images/encoder/ge-av1.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/ge-av1.png",
-    "width": 790,
+    "path": "badge-images/encoder/ge-av1-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/ge-av1-v2.png",
+    "width": 826,
     "height": 320
   },
   {
@@ -734,9 +734,9 @@
     "name": "HEVC",
     "groupId": "ge",
     "groupFolder": "encoder",
-    "path": "badge-images/encoder/s-h265.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/s-h265.png",
-    "width": 1004,
+    "path": "badge-images/encoder/s-h265-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/s-h265-v2.png",
+    "width": 1048,
     "height": 320
   },
   {
@@ -744,9 +744,9 @@
     "name": "AVC",
     "groupId": "ge",
     "groupFolder": "encoder",
-    "path": "badge-images/encoder/s-h264.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/s-h264.png",
-    "width": 816,
+    "path": "badge-images/encoder/s-h264-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/s-h264-v2.png",
+    "width": 854,
     "height": 320
   },
   {
@@ -754,9 +754,9 @@
     "name": "XviD",
     "groupId": "ge",
     "groupFolder": "encoder",
-    "path": "badge-images/encoder/ge-xvid.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/ge-xvid.png",
-    "width": 852,
+    "path": "badge-images/encoder/ge-xvid-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/ge-xvid-v2.png",
+    "width": 890,
     "height": 320
   },
   {
@@ -764,9 +764,9 @@
     "name": "DivX",
     "groupId": "ge",
     "groupFolder": "encoder",
-    "path": "badge-images/encoder/ge-divx.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/ge-divx.png",
-    "width": 844,
+    "path": "badge-images/encoder/ge-divx-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/ge-divx-v2.png",
+    "width": 882,
     "height": 320
   },
   {
@@ -774,9 +774,9 @@
     "name": "PEACOCK",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/gs-peacock.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/gs-peacock.png",
-    "width": 625,
+    "path": "badge-images/streaming/gs-peacock-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/gs-peacock-v2.png",
+    "width": 651,
     "height": 320
   },
   {
@@ -784,9 +784,9 @@
     "name": "NETFLIX",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-nflx.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-nflx.png",
-    "width": 896,
+    "path": "badge-images/streaming/s-nflx-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-nflx-v2.png",
+    "width": 803,
     "height": 320
   },
   {
@@ -794,9 +794,9 @@
     "name": "PRIME VIDEO",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-amzn.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-amzn.png",
-    "width": 808,
+    "path": "badge-images/streaming/s-amzn-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-amzn-v2.png",
+    "width": 724,
     "height": 320
   },
   {
@@ -804,9 +804,9 @@
     "name": "APPLE TV+",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-atvp.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-atvp.png",
-    "width": 551,
+    "path": "badge-images/streaming/s-atvp-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-atvp-v2.png",
+    "width": 497,
     "height": 320
   },
   {
@@ -814,9 +814,9 @@
     "name": "DISNEY+",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-dsnp.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-dsnp.png",
-    "width": 477,
+    "path": "badge-images/streaming/s-dsnp-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-dsnp-v2.png",
+    "width": 434,
     "height": 320
   },
   {
@@ -824,9 +824,9 @@
     "name": "HBO MAX",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-hmax.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-hmax.png",
-    "width": 1194,
+    "path": "badge-images/streaming/s-hmax-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-hmax-v2.png",
+    "width": 1248,
     "height": 320
   },
   {
@@ -834,9 +834,9 @@
     "name": "HULU",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-hulu.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-hulu.png",
-    "width": 754,
+    "path": "badge-images/streaming/s-hulu-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-hulu-v2.png",
+    "width": 677,
     "height": 320
   },
   {
@@ -844,9 +844,9 @@
     "name": "PARAMOUNT+",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-pamp.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-pamp.png",
-    "width": 424,
+    "path": "badge-images/streaming/s-pamp-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-pamp-v2.png",
+    "width": 389,
     "height": 320
   },
   {
@@ -854,9 +854,9 @@
     "name": "CRUNCHYROLL",
     "groupId": "gs",
     "groupFolder": "streaming",
-    "path": "badge-images/streaming/s-croll.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-croll.png",
-    "width": 465,
+    "path": "badge-images/streaming/s-croll-v2.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/streaming/s-croll-v2.png",
+    "width": 423,
     "height": 320
   }
 ]

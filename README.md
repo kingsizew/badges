@@ -139,7 +139,7 @@ from its original artwork:
 - 320 px output height
 - proportional scaling only
 - unused transparent canvas removed
-- visible artwork capped at 70% of the canvas height
+- visible artwork capped at 60% of the canvas height
 - centered transparent safety margins on every side
 - premultiplied-alpha resampling to reduce edge halos
 - artwork, typography, layout, and colors preserved
@@ -152,7 +152,7 @@ clipped.
 Badge image URLs use GitHub raw links:
 
 ```text
-https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<badge-id>.png
+https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<badge-id>-v2.png
 ```
 
 The full ID-to-file mapping is available in
