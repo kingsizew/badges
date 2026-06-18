@@ -636,7 +636,7 @@
       "groupId": "imax",
       "isEnabled": true,
       "pattern": "(?i)(?<![\\s\\S])(?=.*\\bimax\\b)(?!.*\\benhanced\\b)",
-      "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-2-original.png",
+      "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-2-edgefix.png",
       "tagColor": "#000000",
       "textColor": "#FFFFFF",
       "borderColor": "#176BE8",

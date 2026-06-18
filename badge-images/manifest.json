@@ -434,9 +434,9 @@
     "name": "IMAX",
     "groupId": "imax",
     "groupFolder": "imax",
-    "path": "badge-images/imax/v-imax-2-original.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-2-original.png",
-    "width": 972,
+    "path": "badge-images/imax/v-imax-2-edgefix.png",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/imax/v-imax-2-edgefix.png",
+    "width": 988,
     "height": 320
   },
   {

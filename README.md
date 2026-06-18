@@ -7,6 +7,8 @@ The package contains **86 badges** covering source, resolution, quality,
 visual formats, audio formats, channels, codecs, streaming services, and
 special release tags.
 
+![Nuvio Smart Tier List](docs/nuvio-smart-tier-list.png)
+
 ## Install
 
 Use the raw JSON URL:
@@ -135,7 +137,9 @@ badge-images/
 
 Every image in [`badge-images`](badge-images) is the original PNG used by the
 ordered badge configuration. No resizing, cropping, padding, redrawing, or
-other visual transformation is applied.
+other visual transformation is applied, except for the standard IMAX badge,
+which has 16 px of transparent left padding to prevent its first `I` from
+touching the image edge.
 
 ## Direct image URLs
 
