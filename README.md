@@ -212,12 +212,6 @@ and placement. The asset edges have been re-sampled with premultiplied-alpha
 anti-aliasing to reduce jagged outlines and improve readability without
 redesigning or resizing the artwork.
 
-The intentional composition exceptions are:
-
-- the custom merged Dolby Vision/HDR badges;
-- the standard IMAX badge, which includes 16 px of transparent left padding so
-  its first `I` does not touch the image edge.
-
 ## 📁 Repository structure
 
 ```text
@@ -246,10 +240,3 @@ docs/
 - Negative conditions suppress lower tiers and redundant component badges.
 - Visual and Audio filters are stored in tier order for consistent display.
 - The JSON and image URLs are maintained together in this repository.
-
-## ℹ️ Notes
-
-- A badge indicates that a matching tag was found in the supplied stream
-  information; it cannot inspect the actual media tracks.
-- Product names, service names, logos, and trademarks belong to their
-  respective owners.
