@@ -1,33 +1,97 @@
-# Kingsize Badges
+# 🎨 Kingsize Nuvio Badges
 
-A stream badge package for Nuvio with **89 badges**, compact Visual/Audio
-selection logic, color-tier ordering, and locally hosted PNG assets.
+A color-scaled and compatibility-aware stream badge package for
+[Nuvio](https://github.com/NuvioMedia).
 
-![Nuvio Compact Smart Tier List](docs/nuvio-smart-tier-list.png)
+Stream names can contain a large amount of technical information, but showing
+every detected tag makes the interface difficult to read. This package turns
+that metadata into a compact set of recognizable badges so you can quickly
+understand a stream's source, resolution, quality, visual format, audio format,
+channel layout, encoder, and streaming service.
 
-## Install
+The package currently contains **89 badges** with:
 
-Use this raw JSON URL in Nuvio:
+- a five-color quality scale;
+- automatic suppression of lower-tier duplicates;
+- merged badges for formats that carry useful compatibility information;
+- Smart Tier logic for Visual and Audio formats;
+- locally hosted PNG assets with stable GitHub Raw URLs.
+
+## 🚀 Installation
+
+Use the following Raw JSON URL in Nuvio:
 
 ```text
 https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
 ```
 
-## Color scale
+An optional companion formatter is also available:
 
-| Tier | Color | Hex |
-|---|---|---|
-| T1 | Gold | `#FFD500` |
-| T2 | Blue | `#176BE8` |
-| T3 | Green | `#2EB853` |
-| T4 | Orange | `#FF7300` |
-| T5 | Red | `#E64141` |
+- [View the Nuvio formatter](nuvio-formatter.json)
+- [Raw formatter URL](https://raw.githubusercontent.com/kingsizew/badges/main/nuvio-formatter.json)
 
-Visual and Audio filters are ordered as Gold → Blue → Green → Orange → Red.
+## 🌈 Five-tier color scale
 
-## Compact Visual hierarchy
+Badge borders in the ranked technical groups communicate the general tier of a
+detected format at a glance.
 
-Visual uses one global compatibility-aware hierarchy:
+| Tier | Color | Hex | General meaning |
+|---|---|---|---|
+| T1 | Gold | `#FFD500` | Top-tier or premium format |
+| T2 | Blue | `#176BE8` | High-quality format |
+| T3 | Green | `#2EB853` | Good mid-to-high-tier format |
+| T4 | Orange | `#FF7300` | Basic, fallback, or older format |
+| T5 | Red | `#E64141` | Low-quality or undesirable format |
+
+Tiered filters are ordered by color:
+
+```text
+Gold → Blue → Green → Orange → Red
+```
+
+Badges belonging to the same color are also ordered from the strongest to the
+weakest format, keeping stream cards visually consistent.
+
+Streaming-service badges retain their recognizable brand colors, while
+special-edition badges are informational rather than part of the five-tier
+quality scale.
+
+## 🏆 Standard tier selection
+
+Most badge groups use a traditional tier hierarchy. When several tags from the
+same group are detected, lower-tier matches are suppressed and only the
+highest relevant result is displayed.
+
+Examples:
+
+```text
+Resolution: 4K > 1440p > 1080p > 720p > lower resolutions
+Quality:    Remux > BluRay > WEB-DL > WEBRip > lower-quality sources
+IMAX:       IMAX Enhanced > IMAX
+Channels:   7.1 > 6.1 > 5.1 > 2.0
+Encoder:    AV1 > HEVC > AVC > XviD > DivX
+```
+
+The same principle is used for ranked Remux, BluRay, and WEB media-source
+profiles. This prevents combinations such as `4K + 1080p + 720p` or
+`Remux + BluRay + WEB-DL` from producing unnecessary duplicate badges.
+
+## 🧠 Why Visual and Audio use a Smart Tier List
+
+Visual and Audio formats cannot always be represented accurately by one simple
+quality ladder.
+
+Some tags describe different technical properties, compatibility layers, codec
+families, or playback paths. Hiding everything except one globally
+"highest-quality" tag can remove information that is useful when choosing a
+stream for a TV, computer, mobile device, soundbar, or home-theater receiver.
+
+The Smart Tier List keeps the useful compatibility information while
+suppressing redundant component and fallback badges.
+
+## 🎨 Smart Visual hierarchy
+
+Visual formats use one compatibility-aware hierarchy:
 
 ```text
 DV · HDR10+
@@ -43,17 +107,27 @@ DV · HDR10+
 > AI
 ```
 
-The merged badges preserve useful compatibility information without adding a
-second Visual chip:
+### Merged Dolby Vision badges
 
-- Dolby Vision + HDR10+ becomes **DV · HDR10+**
-- Dolby Vision + HDR10 becomes **DV · HDR10**
-- Dolby Vision + generic HDR becomes **DV · HDR**
+When Dolby Vision and a compatible HDR layer are both detected, they are
+represented by one merged badge:
 
-HLG, 10bit, SDR, and AI are fallback formats. They appear only when no
-higher Visual format from the hierarchy is detected.
+| Detected formats | Displayed badge |
+|---|---|
+| Dolby Vision + HDR10+ | **DV · HDR10+** |
+| Dolby Vision + HDR10 | **DV · HDR10** |
+| Dolby Vision + generic HDR | **DV · HDR** |
 
-## Compact Audio selection
+These merged badges communicate both the Dolby Vision format and its HDR
+compatibility information without displaying two separate Visual badges.
+
+HLG, 10bit, SDR, and AI act as fallback results when no higher Visual format is
+detected.
+
+## 🎧 Smart Audio selection
+
+Audio is evaluated through Dolby, DTS, and general codec logic instead of
+forcing every format into one oversimplified hierarchy.
 
 ### Dolby branch
 
@@ -78,26 +152,27 @@ DTS:X · HD MA
 > DTS
 ```
 
-Each branch first selects its own best match.
+Each branch first selects its strongest matching format. Combined Atmos and
+DTS:X badges replace their redundant component badges.
 
-### Codec behavior
+### FLAC, Opus, and AAC
 
 ```text
 FLAC > Opus > AAC
 ```
 
-- **FLAC** is a T2 lossless candidate and competes with the Dolby and DTS
-  winners during Audio selection.
-- **Opus** and **AAC** are fallback codecs. They appear only when neither a
-  Dolby nor a DTS format is detected.
-- When Dolby, DTS, and FLAC all match, lower-priority candidates are
-  suppressed.
-- Equal-tier Dolby/DTS formats take priority over FLAC because they provide
+- **FLAC** is treated as a T2 lossless candidate and competes with the Dolby
+  and DTS branch winners.
+- **Opus** and **AAC** act as fallback codecs when no Dolby or DTS format is
+  detected.
+- If several meaningful Audio candidates are present, lower-priority results
+  are suppressed.
+- Equal-tier Dolby and DTS formats take priority over FLAC because they provide
   more specific device and home-theater compatibility information.
 
 Examples:
 
-| Detected | Displayed |
+| Detected formats | Displayed formats |
 |---|---|
 | Atmos TrueHD + DTS:X HD MA + FLAC | Atmos · TrueHD + DTS:X · HD MA |
 | Atmos TrueHD + DTS-HD + FLAC | Atmos · TrueHD + FLAC |
@@ -107,10 +182,56 @@ Examples:
 | Opus + AAC | Opus |
 | FLAC + Opus + AAC | FLAC |
 
-## Repository structure
+## 📊 Smart Tier List diagram
+
+The diagram below provides a visual overview of the current Visual and Audio
+selection logic:
+
+![Nuvio Smart Tier List](docs/nuvio-smart-tier-list.png)
+
+## 🧩 Included badge groups
+
+| Group | Badges | Purpose |
+|---|---:|---|
+| Special Tags | 4 | SeaDex and release-edition information |
+| Media Source | 17 | Ranked Remux, BluRay, and WEB profiles |
+| Resolution | 9 | 4K through 144p |
+| Quality | 12 | Remux, BluRay, WEB-DL, WEBRip, CAM, and others |
+| IMAX | 2 | IMAX Enhanced and standard IMAX |
+| Visual | 11 | Dolby Vision, HDR formats, HLG, 10bit, SDR, and AI |
+| Audio | 16 | Dolby, DTS, FLAC, Opus, and AAC formats |
+| Channels | 4 | 7.1, 6.1, 5.1, and 2.0 layouts |
+| Encoder | 5 | AV1, HEVC, AVC, XviD, and DivX |
+| Streaming | 9 | Streaming-service source badges |
+| **Total** | **89** | |
+
+Special-edition and streaming-service badges provide descriptive information,
+while the ranked technical groups apply tier-based duplicate suppression.
+
+## 🖼️ Badge images
+
+All badge assets are stored in [`badge-images`](badge-images) and referenced by
+stable GitHub Raw URLs:
+
+```text
+https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<filename>.png
+```
+
+The full ID-to-file mapping is available in
+[`badge-images/manifest.json`](badge-images/manifest.json).
+
+The package preserves the original PNG artwork wherever possible. The
+intentional exceptions are:
+
+- the custom merged Dolby Vision/HDR badges;
+- the standard IMAX badge, which includes 16 px of transparent left padding so
+  its first `I` does not touch the image edge.
+
+## 📁 Repository structure
 
 ```text
 badge.json
+nuvio-formatter.json
 badge-images/
 ├── special-tags/
 ├── media-source/
@@ -127,43 +248,17 @@ docs/
 └── nuvio-smart-tier-list.png
 ```
 
-| Category | Badges |
-|---|---:|
-| Special Tags | 4 |
-| Media Source | 17 |
-| Resolution | 9 |
-| Quality | 12 |
-| IMAX | 2 |
-| Visual | 11 |
-| Audio | 16 |
-| Channels | 4 |
-| Encoder | 5 |
-| Streaming | 9 |
-| **Total** | **89** |
+## ⚙️ Matching behavior
 
-## Image standard
+- Matching evaluates available stream filenames and metadata.
+- Patterns are case-insensitive and recognize common release-name variations.
+- Negative conditions suppress lower tiers and redundant component badges.
+- Visual and Audio filters are stored in tier order for consistent display.
+- The JSON and image URLs are maintained together in this repository.
 
-The package preserves the original PNG artwork. The only intentional
-exceptions are:
+## ℹ️ Notes
 
-- the three custom merged Dolby Vision/HDR badges;
-- the standard IMAX badge, which has 16 px of transparent left padding so its
-  first `I` does not touch the image edge.
-
-## Direct image URLs
-
-Badge image URLs use GitHub Raw:
-
-```text
-https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<filename>.png
-```
-
-The complete mapping is available in
-[`badge-images/manifest.json`](badge-images/manifest.json).
-
-## Notes
-
-- Matching evaluates the filename and supplied stream metadata.
-- Combined badges suppress their redundant component badges.
+- A badge indicates that a matching tag was found in the supplied stream
+  information; it cannot inspect the actual media tracks.
 - Product names, service names, logos, and trademarks belong to their
   respective owners.
