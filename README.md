@@ -30,6 +30,22 @@ An optional companion formatter is also available:
 - [View the Nuvio formatter](nuvio-formatter.json)
 - [Raw formatter URL](https://raw.githubusercontent.com/kingsizew/badges/main/nuvio-formatter.json)
 
+## 🌈 How the badge system works
+
+Ranked technical badges use five color tiers:
+
+**T1 Gold → T2 Blue → T3 Green → T4 Orange → T5 Red**
+
+Gold represents the strongest or most premium formats, followed by Blue,
+Green, Orange, and Red. When multiple tags from the same standard group are
+detected, lower-tier matches are suppressed and the highest relevant badge is
+displayed. Badges within the same color are also ordered from strongest to
+weakest.
+
+Visual and Audio need more context than a simple one-winner hierarchy, so they
+use the Smart Tier logic explained below. Streaming-service badges retain their
+brand colors, while special-edition badges are informational.
+
 ## 🧠 Smart Tier List
 
 Visual and Audio formats are the most complex part of the package. They cannot
@@ -139,32 +155,6 @@ Examples:
 | DTS + Opus | DTS |
 | Opus + AAC | Opus |
 | FLAC + Opus + AAC | FLAC |
-
-## 🌈 Five-tier color scale
-
-Badge borders in the ranked technical groups communicate the general tier of a
-detected format at a glance.
-
-| Tier | Color | Hex | General meaning |
-|---|---|---|---|
-| T1 | Gold | `#FFD500` | Top-tier or premium format |
-| T2 | Blue | `#176BE8` | High-quality format |
-| T3 | Green | `#2EB853` | Good mid-to-high-tier format |
-| T4 | Orange | `#FF7300` | Basic, fallback, or older format |
-| T5 | Red | `#E64141` | Low-quality or undesirable format |
-
-Tiered filters are ordered by color:
-
-```text
-Gold → Blue → Green → Orange → Red
-```
-
-Badges belonging to the same color are also ordered from the strongest to the
-weakest format, keeping stream cards visually consistent.
-
-Streaming-service badges retain their recognizable brand colors, while
-special-edition badges are informational rather than part of the five-tier
-quality scale.
 
 ## 🏆 Standard tier selection
 
