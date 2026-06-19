@@ -30,6 +30,116 @@ An optional companion formatter is also available:
 - [View the Nuvio formatter](nuvio-formatter.json)
 - [Raw formatter URL](https://raw.githubusercontent.com/kingsizew/badges/main/nuvio-formatter.json)
 
+## 🧠 Smart Tier List
+
+Visual and Audio formats are the most complex part of the package. They cannot
+always be represented accurately by one simple quality ladder.
+
+Some tags describe different technical properties, compatibility layers, codec
+families, or playback paths. Hiding everything except one globally
+"highest-quality" tag can remove information that is useful when choosing a
+stream for a TV, computer, mobile device, soundbar, or home-theater receiver.
+
+The Smart Tier List preserves useful compatibility information while
+suppressing redundant component and fallback badges.
+
+![Nuvio Smart Tier List](docs/nuvio-smart-tier-list.png)
+
+## 🎨 Smart Visual hierarchy
+
+Visual formats use one compatibility-aware hierarchy:
+
+```text
+> DV · HDR10+
+> DV · HDR10
+> DV · HDR
+> Dolby Vision
+> HDR10+
+> HDR10
+> HDR
+> HLG
+> 10bit
+> SDR
+> AI
+```
+
+### Merged Dolby Vision badges
+
+When Dolby Vision and a compatible HDR layer are both detected, they are
+represented by one merged badge:
+
+| Detected formats | Displayed badge |
+|---|---|
+| Dolby Vision + HDR10+ | **DV · HDR10+** |
+| Dolby Vision + HDR10 | **DV · HDR10** |
+| Dolby Vision + generic HDR | **DV · HDR** |
+
+These merged badges communicate both the Dolby Vision format and its HDR
+compatibility information without displaying two separate Visual badges.
+
+HLG, 10bit, SDR, and AI act as fallback results when no higher Visual format is
+detected.
+
+## 🎧 Smart Audio selection
+
+Audio is evaluated through Dolby, DTS, and general codec logic instead of
+forcing every format into one oversimplified hierarchy.
+
+### Dolby branch
+
+```text
+> Atmos · TrueHD
+> Atmos · Digital+
+> Atmos
+> TrueHD
+> DD+
+> DD
+```
+
+### DTS branch
+
+```text
+> DTS:X · HD MA
+> DTS:X · HD
+> DTS:X
+> DTS-HD MA
+> DTS-HD
+> DTS-ES
+> DTS
+```
+
+Each branch first selects its strongest matching format. Combined Atmos and
+DTS:X badges replace their redundant component badges.
+
+### FLAC, Opus, and AAC
+
+```text
+> FLAC
+> Opus
+> AAC
+```
+
+- **FLAC** is treated as a T2 lossless candidate and competes with the Dolby
+  and DTS branch winners.
+- **Opus** and **AAC** act as fallback codecs when no Dolby or DTS format is
+  detected.
+- If several meaningful Audio candidates are present, lower-priority results
+  are suppressed.
+- Equal-tier Dolby and DTS formats take priority over FLAC because they provide
+  more specific device and home-theater compatibility information.
+
+Examples:
+
+| Detected formats | Displayed formats |
+|---|---|
+| Atmos TrueHD + DTS:X HD MA + FLAC | Atmos · TrueHD + DTS:X · HD MA |
+| Atmos TrueHD + DTS-HD + FLAC | Atmos · TrueHD + FLAC |
+| DD+ + DTS-HD + FLAC | DTS-HD + FLAC |
+| DD+ + DTS-ES + FLAC | DD+ + FLAC |
+| DTS + Opus | DTS |
+| Opus + AAC | Opus |
+| FLAC + Opus + AAC | FLAC |
+
 ## 🌈 Five-tier color scale
 
 Badge borders in the ranked technical groups communicate the general tier of a
@@ -75,119 +185,6 @@ Encoder:    AV1 > HEVC > AVC > XviD > DivX
 The same principle is used for ranked Remux, BluRay, and WEB media-source
 profiles. This prevents combinations such as `4K + 1080p + 720p` or
 `Remux + BluRay + WEB-DL` from producing unnecessary duplicate badges.
-
-## 🧠 Why Visual and Audio use a Smart Tier List
-
-Visual and Audio formats cannot always be represented accurately by one simple
-quality ladder.
-
-Some tags describe different technical properties, compatibility layers, codec
-families, or playback paths. Hiding everything except one globally
-"highest-quality" tag can remove information that is useful when choosing a
-stream for a TV, computer, mobile device, soundbar, or home-theater receiver.
-
-The Smart Tier List keeps the useful compatibility information while
-suppressing redundant component and fallback badges.
-
-## 🎨 Smart Visual hierarchy
-
-Visual formats use one compatibility-aware hierarchy:
-
-```text
-DV · HDR10+
-> DV · HDR10
-> DV · HDR
-> Dolby Vision
-> HDR10+
-> HDR10
-> HDR
-> HLG
-> 10bit
-> SDR
-> AI
-```
-
-### Merged Dolby Vision badges
-
-When Dolby Vision and a compatible HDR layer are both detected, they are
-represented by one merged badge:
-
-| Detected formats | Displayed badge |
-|---|---|
-| Dolby Vision + HDR10+ | **DV · HDR10+** |
-| Dolby Vision + HDR10 | **DV · HDR10** |
-| Dolby Vision + generic HDR | **DV · HDR** |
-
-These merged badges communicate both the Dolby Vision format and its HDR
-compatibility information without displaying two separate Visual badges.
-
-HLG, 10bit, SDR, and AI act as fallback results when no higher Visual format is
-detected.
-
-## 🎧 Smart Audio selection
-
-Audio is evaluated through Dolby, DTS, and general codec logic instead of
-forcing every format into one oversimplified hierarchy.
-
-### Dolby branch
-
-```text
-Atmos · TrueHD
-> Atmos · Digital+
-> Atmos
-> TrueHD
-> DD+
-> DD
-```
-
-### DTS branch
-
-```text
-DTS:X · HD MA
-> DTS:X · HD
-> DTS:X
-> DTS-HD MA
-> DTS-HD
-> DTS-ES
-> DTS
-```
-
-Each branch first selects its strongest matching format. Combined Atmos and
-DTS:X badges replace their redundant component badges.
-
-### FLAC, Opus, and AAC
-
-```text
-FLAC > Opus > AAC
-```
-
-- **FLAC** is treated as a T2 lossless candidate and competes with the Dolby
-  and DTS branch winners.
-- **Opus** and **AAC** act as fallback codecs when no Dolby or DTS format is
-  detected.
-- If several meaningful Audio candidates are present, lower-priority results
-  are suppressed.
-- Equal-tier Dolby and DTS formats take priority over FLAC because they provide
-  more specific device and home-theater compatibility information.
-
-Examples:
-
-| Detected formats | Displayed formats |
-|---|---|
-| Atmos TrueHD + DTS:X HD MA + FLAC | Atmos · TrueHD + DTS:X · HD MA |
-| Atmos TrueHD + DTS-HD + FLAC | Atmos · TrueHD + FLAC |
-| DD+ + DTS-HD + FLAC | DTS-HD + FLAC |
-| DD+ + DTS-ES + FLAC | DD+ + FLAC |
-| DTS + Opus | DTS |
-| Opus + AAC | Opus |
-| FLAC + Opus + AAC | FLAC |
-
-## 📊 Smart Tier List diagram
-
-The diagram below provides a visual overview of the current Visual and Audio
-selection logic:
-
-![Nuvio Smart Tier List](docs/nuvio-smart-tier-list.png)
 
 ## 🧩 Included badge groups
 
