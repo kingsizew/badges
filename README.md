@@ -207,8 +207,12 @@ https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/
 The full ID-to-file mapping is available in
 [`badge-images/manifest.json`](badge-images/manifest.json).
 
-The package preserves the original PNG artwork wherever possible. The
-intentional exceptions are:
+Every PNG keeps its original canvas size, composition, icon scale, text scale,
+and placement. The asset edges have been re-sampled with premultiplied-alpha
+anti-aliasing to reduce jagged outlines and improve readability without
+redesigning or resizing the artwork.
+
+The intentional composition exceptions are:
 
 - the custom merged Dolby Vision/HDR badges;
 - the standard IMAX badge, which includes 16 px of transparent left padding so
