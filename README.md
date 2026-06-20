@@ -244,3 +244,5 @@ docs/
 - Negative conditions suppress lower tiers and redundant component badges.
 - Visual and Audio filters are stored in tier order for consistent display.
 - The JSON and image URLs are maintained together in this repository.
+
+<!-- README -->
