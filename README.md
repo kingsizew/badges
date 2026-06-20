@@ -207,10 +207,14 @@ https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/
 The full ID-to-file mapping is available in
 [`badge-images/manifest.json`](badge-images/manifest.json).
 
-Every PNG keeps its original canvas size, composition, icon scale, text scale,
-and placement. The asset edges have been re-sampled with premultiplied-alpha
-anti-aliasing to reduce jagged outlines and improve readability without
-redesigning or resizing the artwork.
+Badge assets preserve their display proportions, composition, icon scale, and
+text scale. Edges use transparent anti-aliasing for clean rendering on dark
+interfaces.
+
+The five merged Dolby badges are rebuilt from vector-based artwork at 4x pixel
+density (320 px high). Nuvio displays them at the same visual size as the other
+badges while the additional source pixels improve clarity on mobile, desktop,
+TV, and high-DPI screens.
 
 ## 📁 Repository structure
 
