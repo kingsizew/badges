@@ -211,10 +211,10 @@ Badge assets preserve their display proportions, composition, icon scale, and
 text scale. Edges use transparent anti-aliasing for clean rendering on dark
 interfaces.
 
-The five merged Dolby badges are rebuilt from vector-based artwork at 4x pixel
-density (320 px high). Nuvio displays them at the same visual size as the other
-badges while the additional source pixels improve clarity on mobile, desktop,
-TV, and high-DPI screens.
+The merged and standalone Dolby badges are rebuilt from vector-based artwork at
+4x pixel density (320 px high). Nuvio displays them at the same visual size as
+the other badges while the additional source pixels improve clarity on mobile,
+desktop, TV, and high-DPI screens.
 
 ## 📁 Repository structure
 
