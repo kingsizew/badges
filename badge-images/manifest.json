@@ -445,7 +445,7 @@
     "groupId": "gv",
     "groupFolder": "visual",
     "path": "badge-images/visual/dolby-vision-hdr10-plus.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision-hdr10-plus.png?rev=512fc60e46e3",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision-hdr10-plus.png",
     "width": 1040,
     "height": 320
   },
@@ -455,7 +455,7 @@
     "groupId": "gv",
     "groupFolder": "visual",
     "path": "badge-images/visual/dolby-vision-hdr10.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision-hdr10.png?rev=0767a645c269",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision-hdr10.png",
     "width": 1040,
     "height": 320
   },
@@ -465,7 +465,7 @@
     "groupId": "gv",
     "groupFolder": "visual",
     "path": "badge-images/visual/dolby-vision-hdr.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision-hdr.png?rev=871bdaed1f3c",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision-hdr.png",
     "width": 1040,
     "height": 320
   },
@@ -475,7 +475,7 @@
     "groupId": "gv",
     "groupFolder": "visual",
     "path": "badge-images/visual/dolby-vision.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision.png?rev=ade9f8612cce",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/visual/dolby-vision.png",
     "width": 640,
     "height": 320
   },
@@ -555,8 +555,8 @@
     "groupId": "ga",
     "groupFolder": "audio",
     "path": "badge-images/audio/dolby-atmos-truehd.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos-truehd.png?rev=dfc4004a3bd1",
-    "width": 916,
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos-truehd.png",
+    "width": 1040,
     "height": 320
   },
   {
@@ -575,7 +575,7 @@
     "groupId": "ga",
     "groupFolder": "audio",
     "path": "badge-images/audio/dolby-atmos-digital-plus.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos-digital-plus.png?rev=7c4c509b4597",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos-digital-plus.png",
     "width": 1040,
     "height": 320
   },
@@ -595,7 +595,7 @@
     "groupId": "ga",
     "groupFolder": "audio",
     "path": "badge-images/audio/dolby-atmos.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos.png?rev=ba1a5ef02005",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-atmos.png",
     "width": 640,
     "height": 320
   },
@@ -615,7 +615,7 @@
     "groupId": "ga",
     "groupFolder": "audio",
     "path": "badge-images/audio/dolby-truehd.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-truehd.png?rev=6468b5456890",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-truehd.png",
     "width": 640,
     "height": 320
   },
@@ -655,7 +655,7 @@
     "groupId": "ga",
     "groupFolder": "audio",
     "path": "badge-images/audio/dolby-digital-plus.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-digital-plus.png?rev=a90f93bc7af8",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-digital-plus.png",
     "width": 640,
     "height": 320
   },
@@ -695,7 +695,7 @@
     "groupId": "ga",
     "groupFolder": "audio",
     "path": "badge-images/audio/dolby-digital.png",
-    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-digital.png?rev=8ef7eec7c3eb",
+    "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/audio/dolby-digital.png",
     "width": 640,
     "height": 320
   },
