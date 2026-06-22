@@ -9,7 +9,7 @@ that metadata into a compact set of recognizable badges so you can quickly
 understand a stream's source, resolution, quality, visual format, audio format,
 channel layout, encoder, and streaming service.
 
-The package currently contains **89 badges** with:
+The package currently contains **90 badges** with:
 
 - a five-color quality scale;
 - automatic suppression of lower-tier duplicates;
@@ -180,7 +180,7 @@ profiles. This prevents combinations such as `4K + 1080p + 720p` or
 
 | Group | Badges | Purpose |
 |---|---:|---|
-| Special Tags | 4 | SeaDex and release-edition information |
+| Special Tags | 5 | SeaDex and release-edition information |
 | Media Source | 17 | Ranked Remux, BluRay, and WEB profiles |
 | Resolution | 9 | 4K through 144p |
 | Quality | 12 | Remux, BluRay, WEB-DL, WEBRip, CAM, and others |
@@ -190,7 +190,7 @@ profiles. This prevents combinations such as `4K + 1080p + 720p` or
 | Channels | 4 | 7.1, 6.1, 5.1, and 2.0 layouts |
 | Encoder | 5 | AV1, HEVC, AVC, XviD, and DivX |
 | Streaming | 9 | Streaming-service source badges |
-| **Total** | **89** | |
+| **Total** | **90** | |
 
 Special-edition and streaming-service badges provide descriptive information,
 while the ranked technical groups apply tier-based duplicate suppression.
