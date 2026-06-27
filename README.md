@@ -9,12 +9,14 @@ that metadata into a compact set of recognizable badges so you can quickly
 understand a stream's source, resolution, quality, visual format, audio format,
 channel layout, encoder, and streaming service.
 
-The package currently contains **90 badges** with:
+The package currently contains **100 badges** with:
 
 - a five-color quality scale;
 - automatic suppression of lower-tier duplicates;
 - merged badges for formats that carry useful compatibility information;
 - Smart Tier logic for Visual and Audio formats;
+- informational Special Tags for alternate editions, corrected releases, and
+  mastering variants;
 - locally hosted PNG assets with stable GitHub Raw URLs.
 
 ## 🚀 Installation
@@ -23,6 +25,13 @@ Use the following Raw JSON URL in Nuvio:
 
 ```text
 https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
+```
+
+For the same matching, merging, and tier logic with white borders on every
+badge, use the optional White Badge version:
+
+```text
+https://raw.githubusercontent.com/kingsizew/badges/main/white_badges.json
 ```
 
 An optional companion formatter is also available:
@@ -176,11 +185,37 @@ The same principle is used for ranked Remux, BluRay, and WEB media-source
 profiles. This prevents combinations such as `4K + 1080p + 720p` or
 `Remux + BluRay + WEB-DL` from producing unnecessary duplicate badges.
 
+## 🎬 Special Tags
+
+Special Tags describe corrected releases, alternate cuts, mastering changes,
+and presentation variants that do not belong to the five-tier quality scale.
+They use a neutral light-blue border in the color-scaled package and a white
+border in the optional White Badge version. Their display order reflects
+practical relevance and organization, not a quality hierarchy.
+
+| Special Tag | Badge | Meaning |
+|---|---|---|
+| SeaDex | **SeaDex** | Identifies a curated SeaDex best or alternate release |
+| Hybrid | **HYBRID** | Combines video, audio, subtitles, or other elements from multiple sources |
+| Criterion Collection | **CRIT** | Identifies a Criterion Collection release |
+| Proper | **PROPER** | Marks a corrected release that supersedes a flawed earlier release |
+| Repack | **REPACK** | Marks a corrected reissue from the original release group |
+| Remastered | **RMSTRD** | Uses a revised or improved audio/video master |
+| Open Matte | **MATTE** | Uses expanded framing that reveals more image than the matted presentation |
+| Regraded | **REGRD** | Uses modified color grading |
+| Director's Cut | **DCUT** | Identifies the director's alternate cut |
+| Extended | **EXT** | Identifies a longer or extended version |
+| Uncut | **UNCUT** | Identifies a version presented without content being removed |
+| Uncensored | **UNCENS** | Identifies an uncensored presentation |
+| Black & White | **B&W** | Identifies a black-and-white presentation |
+| True-Hue | **HUE** | Identifies a True-Hue Full Color presentation |
+| Theatrical | **THTR** | Identifies the standard theatrical cut |
+
 ## 🧩 Included badge groups
 
 | Group | Badges | Purpose |
 |---|---:|---|
-| Special Tags | 5 | SeaDex and release-edition information |
+| Special Tags | 15 | SeaDex, corrected releases, alternate cuts, and presentation variants |
 | Media Source | 17 | Ranked Remux, BluRay, and WEB profiles |
 | Resolution | 9 | 4K through 144p |
 | Quality | 12 | Remux, BluRay, WEB-DL, WEBRip, CAM, and others |
@@ -190,7 +225,7 @@ profiles. This prevents combinations such as `4K + 1080p + 720p` or
 | Channels | 4 | 7.1, 6.1, 5.1, and 2.0 layouts |
 | Encoder | 5 | AV1, HEVC, AVC, XviD, and DivX |
 | Streaming | 9 | Streaming-service source badges |
-| **Total** | **90** | |
+| **Total** | **100** | |
 
 Special-edition and streaming-service badges provide descriptive information,
 while the ranked technical groups apply tier-based duplicate suppression.
@@ -203,9 +238,6 @@ stable GitHub Raw URLs:
 ```text
 https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<filename>.png
 ```
-
-The full ID-to-file mapping is available in
-[`badge-images/manifest.json`](badge-images/manifest.json).
 
 Badge assets preserve their display proportions, composition, icon scale, and
 text scale. Edges use transparent anti-aliasing for clean rendering on dark
@@ -220,6 +252,7 @@ desktop, TV, and high-DPI screens.
 
 ```text
 badge.json
+white_badges.json
 nuvio-formatter.json
 badge-images/
 ├── special-tags/
@@ -243,6 +276,9 @@ docs/
 - Patterns are case-insensitive and recognize common release-name variations.
 - Negative conditions suppress lower tiers and redundant component badges.
 - Visual and Audio filters are stored in tier order for consistent display.
+- Special Tags are ordered by practical relevance without applying tier logic.
+- The color-scaled and White Badge packages use identical matching rules; only
+  their border colors differ.
 - The JSON and image URLs are maintained together in this repository.
 
 <!-- README -->
