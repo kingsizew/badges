@@ -34,10 +34,16 @@ badge, use the optional White Badge version:
 https://raw.githubusercontent.com/kingsizew/badges/main/white_badges.json
 ```
 
-An optional companion formatter is also available:
+Three optional companion formatters are available. They all pass the same
+structured badge data while offering different levels of visible detail:
 
-- [View the Nuvio formatter](nuvio-formatter.json)
-- [Raw formatter URL](https://raw.githubusercontent.com/kingsizew/badges/main/nuvio-formatter.json)
+- **Normal:** [View](normal_formatter.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json)
+- **Minimalist with emojis:** [View](minimalist_with_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json)
+- **Minimalist without emojis:** [View](minimalist_no_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json)
+
+All three expose the same 79 structured values to the badge matcher. Edition
+and network values that already have badges are passed invisibly; unsupported
+values remain visible in the formatter.
 
 ## 🌈 How the badge system works
 
@@ -253,7 +259,9 @@ desktop, TV, and high-DPI screens.
 ```text
 badge.json
 white_badges.json
-nuvio-formatter.json
+normal_formatter.json
+minimalist_with_emojis.json
+minimalist_no_emojis.json
 badge-images/
 ├── special-tags/
 ├── media-source/
