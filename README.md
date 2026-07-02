@@ -21,21 +21,26 @@ The package currently contains **100 badges** with:
 
 ## 🚀 Installation
 
-Use the following Raw JSON URL in Nuvio:
+Choose the badge mode that matches your formatter setup:
+
+| Mode | Colored badges | White badges | Formatter support |
+|---|---|---|---|
+| **Instant V2** | [`badge_v2.json`](badge_v2.json) | [`white_badges_v2.json`](white_badges_v2.json) | Requires one of the three formatters below |
+| **Universal** | [`badge.json`](badge.json) | [`white_badges.json`](white_badges.json) | Works with all formatters |
+
+### Instant V2 — recommended with the included formatters
+
+The V2 packages read lightweight structured markers supplied by the included
+formatters. This avoids most expensive release-name matching and displays
+badges at effectively instant speed.
 
 ```text
-https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
+https://raw.githubusercontent.com/kingsizew/badges/main/badge_v2.json
+https://raw.githubusercontent.com/kingsizew/badges/main/white_badges_v2.json
 ```
 
-For the same matching, merging, and tier logic with white borders on every
-badge, use the optional White Badge version:
-
-```text
-https://raw.githubusercontent.com/kingsizew/badges/main/white_badges.json
-```
-
-Three optional companion formatters are available. They all pass the same
-structured badge data while offering different levels of visible detail:
+The following three companion formatters pass the same structured badge data
+while offering different levels of visible detail:
 
 - **Normal:** [View](normal_formatter.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json)
 - **Minimalist with emojis:** [View](minimalist_with_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json)
@@ -44,6 +49,19 @@ structured badge data while offering different levels of visible detail:
 All three expose the same 79 structured values to the badge matcher. Edition
 and network values that already have badges are passed invisibly; unsupported
 values remain visible in the formatter.
+
+### Universal — compatible with every formatter
+
+Use the regular JSON files when using another formatter. These packages inspect
+the filename, title, description, parsed metadata, addon-provided fields, and
+their combined candidate. Their regex patterns have been compacted to minimize
+overhead, but a small delay may remain because Nuvio evaluates every imported
+badge rule against the available stream fields.
+
+```text
+https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
+https://raw.githubusercontent.com/kingsizew/badges/main/white_badges.json
+```
 
 ## 🌈 How the badge system works
 
@@ -259,6 +277,8 @@ desktop, TV, and high-DPI screens.
 ```text
 badge.json
 white_badges.json
+badge_v2.json
+white_badges_v2.json
 normal_formatter.json
 minimalist_with_emojis.json
 minimalist_no_emojis.json
@@ -280,13 +300,16 @@ docs/
 
 ## ⚙️ Matching behavior
 
-- Matching evaluates available stream filenames and metadata.
+- Universal matching evaluates available filenames, titles, descriptions,
+  parsed metadata, addon-provided fields, and their combined candidate.
+- Instant V2 matching reads compact markers supplied by the three included
+  formatters.
 - Patterns are case-insensitive and recognize common release-name variations.
 - Negative conditions suppress lower tiers and redundant component badges.
 - Visual and Audio filters are stored in tier order for consistent display.
 - Special Tags are ordered by practical relevance without applying tier logic.
-- The color-scaled and White Badge packages use identical matching rules; only
-  their border colors differ.
+- The colored and White Badge variants within each mode use identical matching
+  rules; only their border colors differ.
 - The JSON and image URLs are maintained together in this repository.
 
 <!-- README -->
