@@ -25,7 +25,7 @@ Choose the badge mode that matches your formatter setup:
 
 | Mode | Colored badges | White badges | Formatter support |
 |---|---|---|---|
-| **Instant V2** | [`badge_v2.json`](badge_v2.json) | [`white_badges_v2.json`](white_badges_v2.json) | Requires one of the three formatters below |
+| **Instant V2** | [`badge_v2.json`](badge_v2.json) | [`white_badges_v2.json`](white_badges_v2.json) | Requires an Instant-compatible formatter below |
 | **Universal** | [`badge.json`](badge.json) | [`white_badges.json`](white_badges.json) | Works with all formatters |
 
 ### Instant V2 — recommended with the included formatters
@@ -39,18 +39,24 @@ https://raw.githubusercontent.com/kingsizew/badges/main/badge_v2.json
 https://raw.githubusercontent.com/kingsizew/badges/main/white_badges_v2.json
 ```
 
-The following three companion formatters pass the same structured badge data
-while offering different levels of visible detail:
+The following ready-to-use formatters pass the same structured badge data while
+offering different levels of visible detail:
 
 - **Normal:** [View](normal_formatter.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json)
 - **Minimalist with emojis:** [View](minimalist_with_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json)
 - **Minimalist without emojis:** [View](minimalist_no_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json)
+- **Tamtaro Instant:** [View](tamtaro_instant_formatter.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json)
 
-All three expose the same 78 active marker IDs to the badge matcher. Technical,
+All four expose the same 78 active marker IDs to the badge matcher. Technical,
 network, IMAX, and supported edition values are passed invisibly. Six Special
 Tags—Hybrid, Criterion, Proper, Open Matte, Black & White, and True-Hue—remain
 direct matches because AIOStreams does not expose equally broad structured
 values for them; unsupported values remain visible in the formatter.
+
+To make another custom formatter compatible with Instant V2, use
+[`markers_for_custom_formatters.json`](markers_for_custom_formatters.json) as
+the base and add the custom visible `name` and `description` content before its
+existing marker logic. [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json)
 
 ### Universal — compatible with every formatter
 
@@ -284,6 +290,8 @@ white_badges_v2.json
 normal_formatter.json
 minimalist_with_emojis.json
 minimalist_no_emojis.json
+tamtaro_instant_formatter.json
+markers_for_custom_formatters.json
 badge-images/
 ├── special-tags/
 ├── media-source/
