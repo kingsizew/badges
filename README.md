@@ -46,9 +46,11 @@ while offering different levels of visible detail:
 - **Minimalist with emojis:** [View](minimalist_with_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json)
 - **Minimalist without emojis:** [View](minimalist_no_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json)
 
-All three expose the same 79 structured values to the badge matcher. Edition
-and network values that already have badges are passed invisibly; unsupported
-values remain visible in the formatter.
+All three expose the same 78 active marker IDs to the badge matcher. Technical,
+network, IMAX, and supported edition values are passed invisibly. Six Special
+Tags—Hybrid, Criterion, Proper, Open Matte, Black & White, and True-Hue—remain
+direct matches because AIOStreams does not expose equally broad structured
+values for them; unsupported values remain visible in the formatter.
 
 ### Universal — compatible with every formatter
 
