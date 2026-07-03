@@ -53,10 +53,18 @@ Tags—Hybrid, Criterion, Proper, Open Matte, Black & White, and True-Hue—rema
 direct matches because AIOStreams does not expose equally broad structured
 values for them; unsupported values remain visible in the formatter.
 
-To make another custom formatter compatible with Instant V2, use
-[`markers_for_custom_formatters.json`](markers_for_custom_formatters.json) as
-the base and add the custom visible `name` and `description` content before its
-existing marker logic. [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json)
+#### Create your own Instant formatter
+
+To make another custom formatter compatible with the Instant V2 badge packs:
+
+1. Import the [Markers for Custom Formatters template](markers_for_custom_formatters.json)
+   into the AIOStreams Custom Formatter. [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json)
+2. Add your custom formatter code **before** the existing marker codes in the
+   corresponding `name` and `description` fields.
+3. Keep each field below the 5,000-character limit and do not modify or remove
+   the invisible marker codes.
+4. Use [`badge_v2.json`](badge_v2.json) or
+   [`white_badges_v2.json`](white_badges_v2.json) in Nuvio.
 
 ### Universal — compatible with every formatter
 
