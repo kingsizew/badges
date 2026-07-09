@@ -11,6 +11,7 @@ channel layout, encoder, and streaming service.
 
 The package currently contains **100 badges** with:
 
+- four visual badge styles;
 - a five-color quality scale;
 - automatic suppression of lower-tier duplicates;
 - merged badges for formats that carry useful compatibility information;
@@ -21,12 +22,19 @@ The package currently contains **100 badges** with:
 
 ## 🚀 Installation
 
-Choose the badge mode that matches your formatter setup:
+Choose the badge style you prefer, then choose the matching mode for your
+formatter setup.
 
-| Mode | Colored badges | White badges | Formatter support |
+| Style | Universal JSON | Instant V2 JSON | Appearance |
 |---|---|---|---|
-| **Instant V2** | [`badge_v2.json`](badge_v2.json) | [`white_badges_v2.json`](white_badges_v2.json) | Requires an Instant-compatible formatter below |
-| **Universal** | [`badge.json`](badge.json) | [`white_badges.json`](white_badges.json) | Works with all formatters |
+| **Default Colored** | [`badge.json`](badge.json) | [`badge_v2.json`](badge_v2.json) | White icons/text with tier-colored borders |
+| **Colored Outline** | [`colored_outline_badges.json`](colored_outline_badges.json) | [`colored_outline_badges_v2.json`](colored_outline_badges_v2.json) | Icons/text and borders use tier colors |
+| **Solid** | [`solid_badges.json`](solid_badges.json) | [`solid_badges_v2.json`](solid_badges_v2.json) | Tier-filled badges with black icons/text |
+| **White** | [`white_badges.json`](white_badges.json) | [`white_badges_v2.json`](white_badges_v2.json) | White icons/text with white borders |
+
+- **Universal JSONs** work with any formatter.
+- **Instant V2 JSONs** are faster, but require one of the marker-enabled
+  formatters below or a custom formatter using the marker template.
 
 ### Instant V2 — recommended with the included formatters
 
@@ -36,6 +44,8 @@ badges at effectively instant speed.
 
 ```text
 https://raw.githubusercontent.com/kingsizew/badges/main/badge_v2.json
+https://raw.githubusercontent.com/kingsizew/badges/main/colored_outline_badges_v2.json
+https://raw.githubusercontent.com/kingsizew/badges/main/solid_badges_v2.json
 https://raw.githubusercontent.com/kingsizew/badges/main/white_badges_v2.json
 ```
 
@@ -63,8 +73,11 @@ To make another custom formatter compatible with the Instant V2 badge packs:
    corresponding `name` and `description` fields.
 3. Keep each field below the 5,000-character limit and do not modify or remove
    the invisible marker codes.
-4. Use [`badge_v2.json`](badge_v2.json) or
-   [`white_badges_v2.json`](white_badges_v2.json) in Nuvio.
+4. Use one of the V2 badge packs in Nuvio:
+   [`badge_v2.json`](badge_v2.json),
+   [`colored_outline_badges_v2.json`](colored_outline_badges_v2.json),
+   [`solid_badges_v2.json`](solid_badges_v2.json), or
+   [`white_badges_v2.json`](white_badges_v2.json).
 
 ### Universal — compatible with every formatter
 
@@ -76,6 +89,8 @@ badge rule against the available stream fields.
 
 ```text
 https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
+https://raw.githubusercontent.com/kingsizew/badges/main/colored_outline_badges.json
+https://raw.githubusercontent.com/kingsizew/badges/main/solid_badges.json
 https://raw.githubusercontent.com/kingsizew/badges/main/white_badges.json
 ```
 
@@ -229,9 +244,9 @@ profiles. This prevents combinations such as `4K + 1080p + 720p` or
 
 Special Tags describe corrected releases, alternate cuts, mastering changes,
 and presentation variants that do not belong to the five-tier quality scale.
-They use a neutral light-blue border in the color-scaled package and a white
-border in the optional White Badge version. Their display order reflects
-practical relevance and organization, not a quality hierarchy.
+They use a neutral light-blue style in the color-scaled packages and a white
+style in the White Badge version. Their display order reflects practical
+relevance and organization, not a quality hierarchy.
 
 | Special Tag | Badge | Meaning |
 |---|---|---|
@@ -292,8 +307,12 @@ desktop, TV, and high-DPI screens.
 
 ```text
 badge.json
-white_badges.json
 badge_v2.json
+colored_outline_badges.json
+colored_outline_badges_v2.json
+solid_badges.json
+solid_badges_v2.json
+white_badges.json
 white_badges_v2.json
 normal_formatter.json
 minimalist_with_emojis.json
@@ -320,14 +339,14 @@ docs/
 
 - Universal matching evaluates available filenames, titles, descriptions,
   parsed metadata, addon-provided fields, and their combined candidate.
-- Instant V2 matching reads compact markers supplied by the three included
+- Instant V2 matching reads compact markers supplied by marker-enabled
   formatters.
 - Patterns are case-insensitive and recognize common release-name variations.
 - Negative conditions suppress lower tiers and redundant component badges.
 - Visual and Audio filters are stored in tier order for consistent display.
 - Special Tags are ordered by practical relevance without applying tier logic.
-- The colored and White Badge variants within each mode use identical matching
-  rules; only their border colors differ.
+- All visual style variants within each mode use identical matching rules; only
+  their badge images, colors, borders, and fill styles differ.
 - The JSON and image URLs are maintained together in this repository.
 
 <!-- README -->
