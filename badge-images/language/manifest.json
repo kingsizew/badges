@@ -1,0 +1,393 @@
+{
+  "badgeWidth": 120,
+  "badgeHeight": 80,
+  "flagWidth": 112,
+  "flagHeight": 72,
+  "source": "Wikimedia Commons / public-domain and compatible flag SVGs, rendered into Nuvio badge-size transparent PNGs.",
+  "entries": [
+    {
+      "slug": "english",
+      "label": "English",
+      "path": "badge-images/language/english.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/english.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(3-5).svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg"
+    },
+    {
+      "slug": "japanese",
+      "label": "Japanese",
+      "path": "badge-images/language/japanese.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/japanese.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
+    },
+    {
+      "slug": "chinese",
+      "label": "Chinese",
+      "path": "badge-images/language/chinese.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/chinese.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+    },
+    {
+      "slug": "russian",
+      "label": "Russian",
+      "path": "badge-images/language/russian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/russian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg"
+    },
+    {
+      "slug": "arabic",
+      "label": "Arabic",
+      "path": "badge-images/language/arabic.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/arabic.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Arab_League.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Flag_of_the_Arab_League.svg"
+    },
+    {
+      "slug": "portuguese",
+      "label": "Portuguese",
+      "path": "badge-images/language/portuguese.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/portuguese.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+    },
+    {
+      "slug": "portuguese-brazil",
+      "label": "Portuguese (Brazil)",
+      "path": "badge-images/language/portuguese-brazil.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/portuguese-brazil.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+    },
+    {
+      "slug": "spanish",
+      "label": "Spanish",
+      "path": "badge-images/language/spanish.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/spanish.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg"
+    },
+    {
+      "slug": "french",
+      "label": "French",
+      "path": "badge-images/language/french.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/french.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    },
+    {
+      "slug": "german",
+      "label": "German",
+      "path": "badge-images/language/german.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/german.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"
+    },
+    {
+      "slug": "italian",
+      "label": "Italian",
+      "path": "badge-images/language/italian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/italian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    },
+    {
+      "slug": "korean",
+      "label": "Korean",
+      "path": "badge-images/language/korean.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/korean.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
+    },
+    {
+      "slug": "hindi",
+      "label": "Hindi",
+      "path": "badge-images/language/hindi.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/hindi.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg"
+    },
+    {
+      "slug": "bengali",
+      "label": "Bengali",
+      "path": "badge-images/language/bengali.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/bengali.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
+    },
+    {
+      "slug": "punjabi",
+      "label": "Punjabi",
+      "path": "badge-images/language/punjabi.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/punjabi.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nishan_Sahib.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nishan_Sahib.svg"
+    },
+    {
+      "slug": "marathi",
+      "label": "Marathi",
+      "path": "badge-images/language/marathi.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/marathi.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Maharashtra.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Maharashtra.svg"
+    },
+    {
+      "slug": "gujarati",
+      "label": "Gujarati",
+      "path": "badge-images/language/gujarati.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/gujarati.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Gujarat.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Gujarat.svg"
+    },
+    {
+      "slug": "tamil",
+      "label": "Tamil",
+      "path": "badge-images/language/tamil.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/tamil.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tamil_flag_of_World_Tamil_Confederation.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tamil_flag_of_World_Tamil_Confederation.svg"
+    },
+    {
+      "slug": "telugu",
+      "label": "Telugu",
+      "path": "badge-images/language/telugu.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/telugu.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Telangana.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_Telangana.svg"
+    },
+    {
+      "slug": "kannada",
+      "label": "Kannada",
+      "path": "badge-images/language/kannada.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/kannada.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kannada_people.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Flag_of_the_Kannada_people.svg"
+    },
+    {
+      "slug": "malayalam",
+      "label": "Malayalam",
+      "path": "badge-images/language/malayalam.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/malayalam.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Malayalam_flag.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Malayalam_flag.svg"
+    },
+    {
+      "slug": "thai",
+      "label": "Thai",
+      "path": "badge-images/language/thai.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/thai.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg"
+    },
+    {
+      "slug": "vietnamese",
+      "label": "Vietnamese",
+      "path": "badge-images/language/vietnamese.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/vietnamese.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
+    },
+    {
+      "slug": "indonesian",
+      "label": "Indonesian",
+      "path": "badge-images/language/indonesian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/indonesian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"
+    },
+    {
+      "slug": "turkish",
+      "label": "Turkish",
+      "path": "badge-images/language/turkish.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/turkish.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"
+    },
+    {
+      "slug": "hebrew",
+      "label": "Hebrew",
+      "path": "badge-images/language/hebrew.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/hebrew.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg"
+    },
+    {
+      "slug": "persian",
+      "label": "Persian",
+      "path": "badge-images/language/persian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/persian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg"
+    },
+    {
+      "slug": "ukrainian",
+      "label": "Ukrainian",
+      "path": "badge-images/language/ukrainian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/ukrainian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"
+    },
+    {
+      "slug": "greek",
+      "label": "Greek",
+      "path": "badge-images/language/greek.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/greek.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"
+    },
+    {
+      "slug": "lithuanian",
+      "label": "Lithuanian",
+      "path": "badge-images/language/lithuanian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/lithuanian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Lithuania.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg"
+    },
+    {
+      "slug": "latvian",
+      "label": "Latvian",
+      "path": "badge-images/language/latvian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/latvian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg"
+    },
+    {
+      "slug": "estonian",
+      "label": "Estonian",
+      "path": "badge-images/language/estonian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/estonian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Estonia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg"
+    },
+    {
+      "slug": "polish",
+      "label": "Polish",
+      "path": "badge-images/language/polish.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/polish.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg"
+    },
+    {
+      "slug": "czech",
+      "label": "Czech",
+      "path": "badge-images/language/czech.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/czech.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
+    },
+    {
+      "slug": "slovak",
+      "label": "Slovak",
+      "path": "badge-images/language/slovak.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/slovak.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovakia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg"
+    },
+    {
+      "slug": "hungarian",
+      "label": "Hungarian",
+      "path": "badge-images/language/hungarian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/hungarian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg"
+    },
+    {
+      "slug": "romanian",
+      "label": "Romanian",
+      "path": "badge-images/language/romanian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/romanian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"
+    },
+    {
+      "slug": "bulgarian",
+      "label": "Bulgarian",
+      "path": "badge-images/language/bulgarian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/bulgarian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg"
+    },
+    {
+      "slug": "serbian",
+      "label": "Serbian",
+      "path": "badge-images/language/serbian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/serbian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg"
+    },
+    {
+      "slug": "croatian",
+      "label": "Croatian",
+      "path": "badge-images/language/croatian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/croatian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+    },
+    {
+      "slug": "slovenian",
+      "label": "Slovenian",
+      "path": "badge-images/language/slovenian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/slovenian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg"
+    },
+    {
+      "slug": "dutch",
+      "label": "Dutch",
+      "path": "badge-images/language/dutch.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/dutch.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    },
+    {
+      "slug": "danish",
+      "label": "Danish",
+      "path": "badge-images/language/danish.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/danish.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+    },
+    {
+      "slug": "finnish",
+      "label": "Finnish",
+      "path": "badge-images/language/finnish.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/finnish.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg"
+    },
+    {
+      "slug": "swedish",
+      "label": "Swedish",
+      "path": "badge-images/language/swedish.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/swedish.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg"
+    },
+    {
+      "slug": "norwegian",
+      "label": "Norwegian",
+      "path": "badge-images/language/norwegian.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/norwegian.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg"
+    },
+    {
+      "slug": "malay",
+      "label": "Malay",
+      "path": "badge-images/language/malay.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/malay.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg"
+    },
+    {
+      "slug": "latino",
+      "label": "Latino",
+      "path": "badge-images/language/latino.png",
+      "rawURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/latino.png?rev=lang-20260718",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"
+    }
+  ]
+}
