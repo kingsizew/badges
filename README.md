@@ -17,7 +17,7 @@ multiple style options for both colorful and minimal setups.
 
 The package currently contains **100 badges** with:
 
-- five visual badge styles;
+- seven visual badge styles;
 - a five-color quality scale;
 - automatic suppression of lower-tier duplicates;
 - merged badges for formats that carry useful compatibility information;
@@ -36,6 +36,8 @@ formatter setup.
 | **Default Colored** | [`badge.json`](badge.json) | [`badge_v2.json`](badge_v2.json) | White icons/text with tier-colored borders |
 | **Colored Outline** | [`colored_outline_badges.json`](colored_outline_badges.json) | [`colored_outline_badges_v2.json`](colored_outline_badges_v2.json) | Icons/text and borders use tier colors |
 | **Solid** | [`solid_badges.json`](solid_badges.json) | [`solid_badges_v2.json`](solid_badges_v2.json) | Tier-filled badges with black icons/text |
+| **Tinted** | [`tinted_badges.json`](tinted_badges.json) | [`tinted_badges_v2.json`](tinted_badges_v2.json) | Colored icons/text with tier-colored borders and soft tinted backgrounds |
+| **Black** | [`black_badges.json`](black_badges.json) | [`black_badges_v2.json`](black_badges_v2.json) | Black-filled badges with white icons/text |
 | **Mono White** | [`mono_white_badges.json`](mono_white_badges.json) | [`mono_white_badges_v2.json`](mono_white_badges_v2.json) | White-filled badges with black icons/text |
 | **White** | [`white_badges.json`](white_badges.json) | [`white_badges_v2.json`](white_badges_v2.json) | White icons/text with white borders |
 
@@ -53,6 +55,8 @@ badges at effectively instant speed.
 https://raw.githubusercontent.com/kingsizew/badges/main/badge_v2.json
 https://raw.githubusercontent.com/kingsizew/badges/main/colored_outline_badges_v2.json
 https://raw.githubusercontent.com/kingsizew/badges/main/solid_badges_v2.json
+https://raw.githubusercontent.com/kingsizew/badges/main/tinted_badges_v2.json
+https://raw.githubusercontent.com/kingsizew/badges/main/black_badges_v2.json
 https://raw.githubusercontent.com/kingsizew/badges/main/mono_white_badges_v2.json
 https://raw.githubusercontent.com/kingsizew/badges/main/white_badges_v2.json
 ```
@@ -85,6 +89,8 @@ To make another custom formatter compatible with the Instant V2 badge packs:
    [`badge_v2.json`](badge_v2.json),
    [`colored_outline_badges_v2.json`](colored_outline_badges_v2.json),
    [`solid_badges_v2.json`](solid_badges_v2.json),
+   [`tinted_badges_v2.json`](tinted_badges_v2.json),
+   [`black_badges_v2.json`](black_badges_v2.json),
    [`mono_white_badges_v2.json`](mono_white_badges_v2.json), or
    [`white_badges_v2.json`](white_badges_v2.json).
 
@@ -100,6 +106,8 @@ badge rule against the available stream fields.
 https://raw.githubusercontent.com/kingsizew/badges/main/badge.json
 https://raw.githubusercontent.com/kingsizew/badges/main/colored_outline_badges.json
 https://raw.githubusercontent.com/kingsizew/badges/main/solid_badges.json
+https://raw.githubusercontent.com/kingsizew/badges/main/tinted_badges.json
+https://raw.githubusercontent.com/kingsizew/badges/main/black_badges.json
 https://raw.githubusercontent.com/kingsizew/badges/main/mono_white_badges.json
 https://raw.githubusercontent.com/kingsizew/badges/main/white_badges.json
 ```
@@ -255,9 +263,10 @@ profiles. This prevents combinations such as `4K + 1080p + 720p` or
 Special Tags describe corrected releases, alternate cuts, mastering changes,
 and presentation variants that do not belong to the five-tier quality scale.
 They use a neutral light-blue style in the color-scaled packages, a white
-outline style in the White Badge version, and a white-filled monochrome style
-in the Mono White version. Their display order reflects practical relevance
-and organization, not a quality hierarchy.
+outline style in the White Badge version, a white-filled monochrome style in
+the Mono White version, and black or tinted variants in the matching visual
+style packs. Their display order reflects practical relevance and
+organization, not a quality hierarchy.
 
 | Special Tag | Badge | Meaning |
 |---|---|---|
@@ -323,6 +332,10 @@ colored_outline_badges.json
 colored_outline_badges_v2.json
 solid_badges.json
 solid_badges_v2.json
+tinted_badges.json
+tinted_badges_v2.json
+black_badges.json
+black_badges_v2.json
 mono_white_badges.json
 mono_white_badges_v2.json
 white_badges.json
