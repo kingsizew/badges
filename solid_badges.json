@@ -772,6 +772,8 @@
       "textColor": "#000000",
       "borderColor": "#FFD500",
       "tagStyle": "filled"
+      "type": "filter"
+      
     },
     {
       "id": "v-imax-2",
@@ -784,6 +786,7 @@
       "textColor": "#000000",
       "borderColor": "#176BE8",
       "tagStyle": "filled"
+      "type": "filter"
     },
     {
       "id": "v-dv-hdr10p",
