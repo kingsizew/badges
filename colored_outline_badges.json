@@ -771,7 +771,7 @@
       "tagColor": "#00000000",
       "textColor": "#FFD500",
       "borderColor": "#FFD500",
-      "tagStyle": "bordered"
+      "tagStyle": "bordered",
       "type": "filter"
     },
     {
@@ -784,7 +784,7 @@
       "tagColor": "#00000000",
       "textColor": "#176BE8",
       "borderColor": "#176BE8",
-      "tagStyle": "bordered"
+      "tagStyle": "bordered",
       "type": "filter"
     },
     {
