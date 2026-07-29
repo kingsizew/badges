@@ -1,0 +1,342 @@
+{
+  "badgeWidth": 120,
+  "badgeHeight": 80,
+  "entries": [
+    {
+      "slug": "english",
+      "label": "English",
+      "file": "english.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(3-5).svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg"
+    },
+    {
+      "slug": "japanese",
+      "label": "Japanese",
+      "file": "japanese.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
+    },
+    {
+      "slug": "chinese",
+      "label": "Chinese",
+      "file": "chinese.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+    },
+    {
+      "slug": "russian",
+      "label": "Russian",
+      "file": "russian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg"
+    },
+    {
+      "slug": "arabic",
+      "label": "Arabic",
+      "file": "arabic.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Arab_League.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Flag_of_the_Arab_League.svg"
+    },
+    {
+      "slug": "portuguese",
+      "label": "Portuguese",
+      "file": "portuguese.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+    },
+    {
+      "slug": "portuguese-brazil",
+      "label": "Portuguese (Brazil)",
+      "file": "portuguese-brazil.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+    },
+    {
+      "slug": "spanish",
+      "label": "Spanish",
+      "file": "spanish.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg"
+    },
+    {
+      "slug": "french",
+      "label": "French",
+      "file": "french.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+    },
+    {
+      "slug": "german",
+      "label": "German",
+      "file": "german.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"
+    },
+    {
+      "slug": "italian",
+      "label": "Italian",
+      "file": "italian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    },
+    {
+      "slug": "korean",
+      "label": "Korean",
+      "file": "korean.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
+    },
+    {
+      "slug": "hindi",
+      "label": "Hindi",
+      "file": "hindi.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg"
+    },
+    {
+      "slug": "bengali",
+      "label": "Bengali",
+      "file": "bengali.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
+    },
+    {
+      "slug": "punjabi",
+      "label": "Punjabi",
+      "file": "punjabi.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nishan_Sahib.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nishan_Sahib.svg"
+    },
+    {
+      "slug": "marathi",
+      "label": "Marathi",
+      "file": "marathi.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Maharashtra.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Maharashtra.svg"
+    },
+    {
+      "slug": "gujarati",
+      "label": "Gujarati",
+      "file": "gujarati.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Gujarat.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Gujarat.svg"
+    },
+    {
+      "slug": "tamil",
+      "label": "Tamil",
+      "file": "tamil.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tamil_flag_of_World_Tamil_Confederation.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tamil_flag_of_World_Tamil_Confederation.svg"
+    },
+    {
+      "slug": "telugu",
+      "label": "Telugu",
+      "file": "telugu.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Telangana.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_Telangana.svg"
+    },
+    {
+      "slug": "kannada",
+      "label": "Kannada",
+      "file": "kannada.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kannada_people.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Flag_of_the_Kannada_people.svg"
+    },
+    {
+      "slug": "malayalam",
+      "label": "Malayalam",
+      "file": "malayalam.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Malayalam_flag.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Malayalam_flag.svg"
+    },
+    {
+      "slug": "thai",
+      "label": "Thai",
+      "file": "thai.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg"
+    },
+    {
+      "slug": "vietnamese",
+      "label": "Vietnamese",
+      "file": "vietnamese.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
+    },
+    {
+      "slug": "indonesian",
+      "label": "Indonesian",
+      "file": "indonesian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"
+    },
+    {
+      "slug": "turkish",
+      "label": "Turkish",
+      "file": "turkish.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"
+    },
+    {
+      "slug": "hebrew",
+      "label": "Hebrew",
+      "file": "hebrew.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg"
+    },
+    {
+      "slug": "persian",
+      "label": "Persian",
+      "file": "persian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg"
+    },
+    {
+      "slug": "ukrainian",
+      "label": "Ukrainian",
+      "file": "ukrainian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"
+    },
+    {
+      "slug": "greek",
+      "label": "Greek",
+      "file": "greek.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"
+    },
+    {
+      "slug": "lithuanian",
+      "label": "Lithuanian",
+      "file": "lithuanian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Lithuania.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg"
+    },
+    {
+      "slug": "latvian",
+      "label": "Latvian",
+      "file": "latvian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg"
+    },
+    {
+      "slug": "estonian",
+      "label": "Estonian",
+      "file": "estonian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Estonia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg"
+    },
+    {
+      "slug": "polish",
+      "label": "Polish",
+      "file": "polish.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg"
+    },
+    {
+      "slug": "czech",
+      "label": "Czech",
+      "file": "czech.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
+    },
+    {
+      "slug": "slovak",
+      "label": "Slovak",
+      "file": "slovak.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovakia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg"
+    },
+    {
+      "slug": "hungarian",
+      "label": "Hungarian",
+      "file": "hungarian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg"
+    },
+    {
+      "slug": "romanian",
+      "label": "Romanian",
+      "file": "romanian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Romania.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg"
+    },
+    {
+      "slug": "bulgarian",
+      "label": "Bulgarian",
+      "file": "bulgarian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg"
+    },
+    {
+      "slug": "serbian",
+      "label": "Serbian",
+      "file": "serbian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg"
+    },
+    {
+      "slug": "croatian",
+      "label": "Croatian",
+      "file": "croatian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+    },
+    {
+      "slug": "slovenian",
+      "label": "Slovenian",
+      "file": "slovenian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg"
+    },
+    {
+      "slug": "dutch",
+      "label": "Dutch",
+      "file": "dutch.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+    },
+    {
+      "slug": "danish",
+      "label": "Danish",
+      "file": "danish.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+    },
+    {
+      "slug": "finnish",
+      "label": "Finnish",
+      "file": "finnish.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg"
+    },
+    {
+      "slug": "swedish",
+      "label": "Swedish",
+      "file": "swedish.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg"
+    },
+    {
+      "slug": "norwegian",
+      "label": "Norwegian",
+      "file": "norwegian.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg"
+    },
+    {
+      "slug": "malay",
+      "label": "Malay",
+      "file": "malay.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg"
+    },
+    {
+      "slug": "latino",
+      "label": "Latino",
+      "file": "latino.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"
+    }
+  ]
+}
