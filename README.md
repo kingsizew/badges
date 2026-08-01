@@ -15,7 +15,9 @@ Kingsize Nuvio Badges is a compact badge and formatter pack for Nuvio. It
 turns stream metadata into clean, tier-aware visual badges while keeping
 multiple style options for both colorful and minimal setups.
 
-The package currently contains **100 badges** with:
+The Universal badge packs currently contain **100 badges**. Instant V2 packs contain those same badges plus **48 preferred-language badges** when used with marker-enabled formatters, for **148 V2 badges** total.
+
+The package includes:
 
 - seven visual badge styles;
 - a five-color quality scale;
@@ -24,7 +26,8 @@ The package currently contains **100 badges** with:
 - Smart Tier logic for Visual and Audio formats;
 - informational Special Tags for alternate editions, corrected releases, and
   mastering variants;
-- locally hosted PNG assets with stable GitHub Raw URLs.
+- locally hosted PNG assets with stable GitHub Raw URLs;
+- optional Instant V2 language badges generated from AIOStreams preferred-language markers.
 
 ## 🚀 Installation
 
@@ -64,16 +67,19 @@ https://raw.githubusercontent.com/kingsizew/badges/main/white_badges_v2.json
 The following ready-to-use formatters pass the same structured badge data while
 offering different levels of visible detail:
 
-- **Normal:** [View](normal_formatter.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json)
-- **Minimalist with emojis:** [View](minimalist_with_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json)
-- **Minimalist without emojis:** [View](minimalist_no_emojis.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json)
-- **Tamtaro Instant:** [View](tamtaro_instant_formatter.json) · [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json)
+- **Normal:** [View](normal_formatter.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json)
+- **Minimalist with emojis:** [View](minimalist_with_emojis.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json)
+- **Minimalist without emojis:** [View](minimalist_no_emojis.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json)
+- **Tamtaro Instant:** [View](tamtaro_instant_formatter.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json)
+- **Tamtaro Minimalist Instant:** [View](tamtaro_minimalist_instant_formatter.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json)
 
-All four expose the same 78 active marker IDs to the badge matcher. Technical,
-network, IMAX, and supported edition values are passed invisibly. Six Special
-Tags—Hybrid, Criterion, Proper, Open Matte, Black & White, and True-Hue—remain
-direct matches because AIOStreams does not expose equally broad structured
-values for them; unsupported values remain visible in the formatter.
+These formatter files use the newer AIOStreams formatter syntax. If your AIOStreams instance has not moved to the new syntax yet, use an instance/version that supports it before importing these files.
+
+The included marker-enabled formatters expose the same core technical markers to the badge matcher. The new marker template also includes 48 preferred-language markers. Language badges are generated from the languages selected in your AIOStreams configuration, so they should not clutter the badge row with languages you did not prefer.
+
+**Tamtaro Instant note:** Tam's default instant formatter keeps Tam's full visible layout and adds the hidden markers, so its description field exceeds the usual 5,000-character formatter limit. Use the Kuu AIOStreams instance, or another instance with a 7,000-character formatter limit, if you want to use Tam's default instant formatter. The other included formatters stay below 5,000 characters.
+
+Technical, network, IMAX, supported edition values, and preferred-language values are passed invisibly. Six Special Tags (Hybrid, Criterion, Proper, Open Matte, Black & White, and True-Hue) remain direct matches because AIOStreams does not expose equally broad structured values for them; unsupported values remain visible in the formatter.
 
 #### Create your own Instant formatter
 
@@ -83,8 +89,16 @@ To make another custom formatter compatible with the Instant V2 badge packs:
    into the AIOStreams Custom Formatter. [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json)
 2. Add your custom formatter code **before** the existing marker codes in the
    corresponding `name` and `description` fields.
-3. Keep each field below the 5,000-character limit and do not modify or remove
-   the invisible marker codes.
+3. Keep each field below the formatter character limit and do not modify the
+   invisible marker tokens.
+   - If the `name` field exceeds 5,000 characters, move some marker blocks from
+     `name` to the end of `description`, next to the existing description
+     markers.
+   - If the `description` field exceeds 5,000 characters, move some marker
+     blocks from `description` to the end of `name`, next to the existing name
+     markers.
+   - If you do not need all language badges, you can delete languages you do not
+     care about from the language marker replace-chain to free space.
 4. Use one of the V2 badge packs in Nuvio:
    [`badge_v2.json`](badge_v2.json),
    [`colored_outline_badges_v2.json`](colored_outline_badges_v2.json),
@@ -300,10 +314,11 @@ organization, not a quality hierarchy.
 | Channels | 4 | 7.1, 6.1, 5.1, and 2.0 layouts |
 | Encoder | 5 | AV1, HEVC, AVC, XviD, and DivX |
 | Streaming | 9 | Streaming-service source badges |
-| **Total** | **100** | |
+| Language | 48 | Instant V2 preferred-language badges from marker-enabled formatters |
+| **Total** | **100 Universal / 148 V2** | |
 
 Special-edition and streaming-service badges provide descriptive information,
-while the ranked technical groups apply tier-based duplicate suppression.
+while the ranked technical groups apply tier-based duplicate suppression. Language badges are included only in the Instant V2 packs and are driven by preferred-language markers from compatible formatters.
 
 ## 🖼️ Badge images
 
@@ -344,6 +359,7 @@ normal_formatter.json
 minimalist_with_emojis.json
 minimalist_no_emojis.json
 tamtaro_instant_formatter.json
+tamtaro_minimalist_instant_formatter.json
 markers_for_custom_formatters.json
 badge-images/
 ├── special-tags/
@@ -356,6 +372,7 @@ badge-images/
 ├── channels/
 ├── encoder/
 ├── streaming/
+├── language/
 └── manifest.json
 docs/
 └── nuvio-smart-tier-list.png
@@ -366,7 +383,7 @@ docs/
 - Universal matching evaluates available filenames, titles, descriptions,
   parsed metadata, addon-provided fields, and their combined candidate.
 - Instant V2 matching reads compact markers supplied by marker-enabled
-  formatters.
+  formatters, including preferred-language markers for the V2 language badges.
 - Patterns are case-insensitive and recognize common release-name variations.
 - Negative conditions suppress lower tiers and redundant component badges.
 - Visual and Audio filters are stored in tier order for consistent display.
