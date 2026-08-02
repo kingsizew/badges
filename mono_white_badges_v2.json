@@ -1387,7 +1387,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‌‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/english.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1400,7 +1400,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‍‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/japanese.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1413,7 +1413,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‍‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/chinese.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1426,7 +1426,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‍‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/russian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1439,7 +1439,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌⁠‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/arabic.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1452,7 +1452,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍⁠‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/portuguese.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1465,7 +1465,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‌‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/portuguese-brazil.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1478,7 +1478,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠⁠‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/spanish.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1491,7 +1491,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‌‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/french.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1504,7 +1504,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‌‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/german.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1517,7 +1517,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‌‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/italian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1530,7 +1530,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‍‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/korean.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1543,7 +1543,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‍‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/hindi.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1556,7 +1556,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‍‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/bengali.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1569,7 +1569,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌⁠‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/punjabi.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1582,7 +1582,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍⁠‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/marathi.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1595,7 +1595,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠⁠‍‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/gujarati.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1608,7 +1608,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‌⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/tamil.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1621,7 +1621,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‌⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/telugu.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1634,7 +1634,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‌⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/kannada.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1647,7 +1647,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‍⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/malayalam.png?v=flagfix-20260802",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1660,7 +1660,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‍⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/thai.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1673,7 +1673,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‍⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/vietnamese.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1686,7 +1686,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌⁠⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/indonesian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1699,7 +1699,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍⁠⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/turkish.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1712,7 +1712,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠⁠⁠‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/hebrew.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1725,7 +1725,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‌‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/persian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1738,7 +1738,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‌‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/ukrainian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1751,7 +1751,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‌‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/greek.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1764,7 +1764,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‍‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/lithuanian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1777,7 +1777,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‍‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/latvian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1790,7 +1790,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‍‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/estonian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1803,7 +1803,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌⁠‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/polish.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1816,7 +1816,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍⁠‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/czech.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1829,7 +1829,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠⁠‌‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/slovak.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1842,7 +1842,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‌‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/hungarian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1855,7 +1855,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‌‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/romanian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1868,7 +1868,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‌‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/bulgarian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1881,7 +1881,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‍‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/serbian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1894,7 +1894,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‍‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/croatian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1907,7 +1907,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‍‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/slovenian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1920,7 +1920,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌⁠‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/dutch.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1933,7 +1933,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍⁠‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/danish.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1946,7 +1946,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠⁠‍‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/finnish.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1959,7 +1959,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‌‌⁠‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/swedish.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1972,7 +1972,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‌⁠‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/norwegian.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1985,7 +1985,7 @@
       "pattern": "(?s)^(?=.*⁣⁢⁠‌⁠‍⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/malay.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
@@ -1998,7 +1998,7 @@
       "pattern": "(?s)^(?=.*⁣⁢‍‌‌‌⁤)",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/language/latino.png",
       "type": "filter",
-      "tagColor": "#95BBDEFB",
+      "tagColor": "#99FFFFFF",
       "borderColor": "#FFFFFF",
       "textColor": "#000000",
       "tagStyle": "filled"
