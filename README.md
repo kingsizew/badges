@@ -29,6 +29,9 @@ The package includes:
 - locally hosted PNG assets with stable GitHub Raw URLs;
 - optional Instant V2 language badges generated from AIOStreams preferred-language markers.
 
+> **Note:** For the best and smoothest Nuvio experience, you'll need a debrid service, and currently, [***TorBox***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) is the most affordable and highly recommended one. You can also share your Nuvio setup with your friends/family to use it together. If it's your first ever purchase, use my [***referral***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) and we both get +84 extra days on a yearly plan or +7 extra days on a monthly one.  
+> *Referral Code:** 83bdd6a7-e951-4a82-8be4-99e5c6c97074
+
 ## 🚀 Installation
 
 Choose the badge style you prefer, then choose the matching mode for your
@@ -73,13 +76,8 @@ offering different levels of visible detail:
 - **Tamtaro Instant:** [View](tamtaro_instant_formatter.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json)
 - **Tamtaro Minimalist Instant:** [View](tamtaro_minimalist_instant_formatter.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json)
 
-These formatter files use the newer AIOStreams formatter syntax. If your AIOStreams instance has not moved to the new syntax yet, use an instance/version that supports it before importing these files.
-
 The included marker-enabled formatters expose the same core technical markers to the badge matcher. The new marker template also includes 48 preferred-language markers. Language badges are generated from the languages selected in your AIOStreams configuration, so they should not clutter the badge row with languages you did not prefer.
-
-**Tamtaro Instant note:** Tam's default instant formatter keeps Tam's full visible layout and adds the hidden markers, so its description field exceeds the usual 5,000-character formatter limit. Use the Kuu AIOStreams instance, or another instance with a 7,000-character formatter limit, if you want to use Tam's default instant formatter. The other included formatters stay below 5,000 characters.
-
-Technical, network, IMAX, supported edition values, and preferred-language values are passed invisibly. Six Special Tags (Hybrid, Criterion, Proper, Open Matte, Black & White, and True-Hue) remain direct matches because AIOStreams does not expose equally broad structured values for them; unsupported values remain visible in the formatter.
+**Note:** Only Tam’s default formatter exceeds the 5,000-character limit. If you want to use Tam’s default formatter with V2 badge packs, use the **[Kuu instance](https://aiostreams-nightly.206111.xyz/stremio/configure?menu=about&template=https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/main/Tamtaro-All-Templates-for-AIOStreams.json)**.
 
 #### Create your own Instant formatter
 
@@ -319,64 +317,6 @@ organization, not a quality hierarchy.
 
 Special-edition and streaming-service badges provide descriptive information,
 while the ranked technical groups apply tier-based duplicate suppression. Language badges are included only in the Instant V2 packs and are driven by preferred-language markers from compatible formatters.
-
-## 🖼️ Badge images
-
-All badge assets are stored in [`badge-images`](badge-images) and referenced by
-stable GitHub Raw URLs:
-
-```text
-https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/<category>/<filename>.png
-```
-
-Badge assets preserve their display proportions, composition, icon scale, and
-text scale. Edges use transparent anti-aliasing for clean rendering on dark
-interfaces.
-
-The merged and standalone Dolby badges are rebuilt from vector-based artwork at
-4x pixel density (320 px high). Nuvio displays them at the same visual size as
-the other badges while the additional source pixels improve clarity on mobile,
-desktop, TV, and high-DPI screens.
-
-## 📁 Repository structure
-
-```text
-badge.json
-badge_v2.json
-colored_outline_badges.json
-colored_outline_badges_v2.json
-solid_badges.json
-solid_badges_v2.json
-tinted_badges.json
-tinted_badges_v2.json
-black_badges.json
-black_badges_v2.json
-mono_white_badges.json
-mono_white_badges_v2.json
-white_badges.json
-white_badges_v2.json
-normal_formatter.json
-minimalist_with_emojis.json
-minimalist_no_emojis.json
-tamtaro_instant_formatter.json
-tamtaro_minimalist_instant_formatter.json
-markers_for_custom_formatters.json
-badge-images/
-├── special-tags/
-├── media-source/
-├── resolution/
-├── quality/
-├── imax/
-├── visual/
-├── audio/
-├── channels/
-├── encoder/
-├── streaming/
-├── language/
-└── manifest.json
-docs/
-└── nuvio-smart-tier-list.png
-```
 
 ## ⚙️ Matching behavior
 
