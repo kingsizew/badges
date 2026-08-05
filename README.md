@@ -30,7 +30,7 @@ The package includes:
 - optional Instant V2 language badges generated from AIOStreams preferred-language markers.
 
 > **Note:** For the best and smoothest Nuvio experience, you'll need a debrid service, and currently, [***TorBox***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) is the most affordable and highly recommended one. You can also share your Nuvio setup with your friends/family to use it together. If it's your first ever purchase, use my [***referral***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) and we both get +84 extra days on a yearly plan or +7 extra days on a monthly one.  
-> *Referral Code:** 83bdd6a7-e951-4a82-8be4-99e5c6c97074
+> **Referral Code:** 83bdd6a7-e951-4a82-8be4-99e5c6c97074
 
 ## 🚀 Installation
 
