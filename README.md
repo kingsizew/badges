@@ -7,7 +7,7 @@ Stream names can contain a large amount of technical information, but showing
 every detected tag makes the interface difficult to read. This package turns
 that metadata into a compact set of recognizable badges so you can quickly
 understand a stream's source, resolution, quality, visual format, audio format,
-channel layout, encoder, and streaming service.
+channel layout, encoder, streaming service, language, and subtitle information.
 
 ## About
 
@@ -15,7 +15,7 @@ Kingsize Nuvio Badges is a compact badge and formatter pack for Nuvio. It
 turns stream metadata into clean, tier-aware visual badges while keeping
 multiple style options for both colorful and minimal setups.
 
-The Universal badge packs currently contain **100 badges**. Instant V2 packs contain those same badges plus **48 preferred-language badges** when used with marker-enabled formatters, for **148 V2 badges** total.
+The Universal badge packs currently contain **100 badges**. Instant V2 packs contain those same badges plus **48 preferred-language badges** and **48 preferred-subtitle badges** when used with marker-enabled formatters, for **196 V2 badges** total.
 
 The package includes:
 
@@ -27,7 +27,7 @@ The package includes:
 - informational Special Tags for alternate editions, corrected releases, and
   mastering variants;
 - locally hosted PNG assets with stable GitHub Raw URLs;
-- optional Instant V2 language badges generated from AIOStreams preferred-language markers.
+- optional Instant V2 language and subtitle badges generated from AIOStreams preferred-language and preferred-subtitle markers.
 
 > **Note:** For the best and smoothest Nuvio experience, you'll need a debrid service, and currently, [***TorBox***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) is the most affordable and highly recommended one. You can also share your Nuvio setup with your friends/family to use it together. If it's your first ever purchase, use my [***referral***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) and we both get +84 extra days on a yearly plan or +7 extra days on a monthly one.  
 > **Referral Code:** 83bdd6a7-e951-4a82-8be4-99e5c6c97074
@@ -54,7 +54,9 @@ formatter setup.
 ### Instant V2 — recommended with the included formatters
 
 The V2 packages read lightweight structured markers supplied by the included
-formatters. This avoids most expensive release-name matching and displays
+formatters for most technical badge groups. Streaming, IMAX, and most Special
+Tags still use normal regex matching for compatibility, while SeaDex uses a
+dedicated marker. This avoids most expensive release-name matching and displays
 badges at effectively instant speed.
 
 ```text
@@ -76,7 +78,8 @@ offering different levels of visible detail:
 - **Tamtaro Instant:** [View](tamtaro_instant_formatter.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json)
 - **Tamtaro Minimalist Instant:** [View](tamtaro_minimalist_instant_formatter.json) - [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json)
 
-The included marker-enabled formatters expose the same core technical markers to the badge matcher. The new marker template also includes 48 preferred-language markers. Language badges are generated from the languages selected in your AIOStreams configuration, so they should not clutter the badge row with languages you did not prefer.
+The included marker-enabled formatters expose the same core technical markers to the badge matcher. The marker template also includes 48 preferred-language markers and 48 preferred-subtitle markers. Language and subtitle badges are generated from the languages and subtitles selected in your AIOStreams configuration, so they should not clutter the badge row with entries you did not prefer.
+
 **Note:** Only Tam’s default formatter exceeds the 5,000-character limit. If you want to use Tam’s default formatter with V2 badge packs, use the **[Kuu instance](https://aiostreams-nightly.206111.xyz/stremio/configure?menu=about&template=https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/main/Tamtaro-All-Templates-for-AIOStreams.json)**.
 
 #### Create your own Instant formatter
@@ -95,8 +98,9 @@ To make another custom formatter compatible with the Instant V2 badge packs:
    - If the `description` field exceeds 5,000 characters, move some marker
      blocks from `description` to the end of `name`, next to the existing name
      markers.
-   - If you do not need all language badges, you can delete languages you do not
-     care about from the language marker replace-chain to free space.
+   - If you do not need all language or subtitle badges, you can delete entries
+     you do not care about from the language or subtitle marker replace-chains
+     to free space.
 4. Use one of the V2 badge packs in Nuvio:
    [`badge_v2.json`](badge_v2.json),
    [`colored_outline_badges_v2.json`](colored_outline_badges_v2.json),
@@ -313,17 +317,21 @@ organization, not a quality hierarchy.
 | Encoder | 5 | AV1, HEVC, AVC, XviD, and DivX |
 | Streaming | 9 | Streaming-service source badges |
 | Language | 48 | Instant V2 preferred-language badges from marker-enabled formatters |
-| **Total** | **100 Universal / 148 V2** | |
+| Subtitle | 48 | Instant V2 preferred-subtitle badges from marker-enabled formatters |
+| **Total** | **100 Universal / 196 V2** | |
 
 Special-edition and streaming-service badges provide descriptive information,
-while the ranked technical groups apply tier-based duplicate suppression. Language badges are included only in the Instant V2 packs and are driven by preferred-language markers from compatible formatters.
+while the ranked technical groups apply tier-based duplicate suppression. Language and subtitle badges are included only in the Instant V2 packs and are driven by preferred-language and preferred-subtitle markers from compatible formatters.
 
 ## ⚙️ Matching behavior
 
 - Universal matching evaluates available filenames, titles, descriptions,
   parsed metadata, addon-provided fields, and their combined candidate.
 - Instant V2 matching reads compact markers supplied by marker-enabled
-  formatters, including preferred-language markers for the V2 language badges.
+  formatters for most technical groups, plus preferred-language and
+  preferred-subtitle markers for the V2 Language and Subtitle badges.
+- Streaming, IMAX, and Special Tags other than SeaDex use normal regex matching
+  in V2 packs; SeaDex uses a dedicated marker.
 - Patterns are case-insensitive and recognize common release-name variations.
 - Negative conditions suppress lower tiers and redundant component badges.
 - Visual and Audio filters are stored in tier order for consistent display.
