@@ -12,7 +12,7 @@ and a marker template for custom formatters.
 > **Note:** For the best and smoothest Nuvio experience, you'll need a debrid service, and currently, [***TorBox***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) is the most affordable and highly recommended one. You can also share your Nuvio setup with your friends/family to use it together. If it's your first ever purchase, use my [***referral***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) and we both get +84 extra days on a yearly plan or +7 extra days on a monthly one.  
 > **Referral Code:** 83bdd6a7-e951-4a82-8be4-99e5c6c97074
 
-## Preview
+## 🖼️ Diagram Previews
 
 Each preview diagram shows one badge pack and one formatter combination. The
 top row shows the badges included in the pack, while the bottom row shows how
@@ -23,7 +23,7 @@ or mix any badge pack with any included formatter to create your own setup.
 
 ![Tinted badges preview](docs/previews/tinted_badges.json.png)
 
-Other previews:
+Other Diagram Previews:
 [Colored Outline Badges](docs/previews/colored_outline_badges.json.png) ·
 [Default Colored Badge](docs/previews/badge.json.png) ·
 [Solid Badges](docs/previews/solid_badges.json.png) ·
@@ -31,7 +31,7 @@ Other previews:
 [Mono White Badges](docs/previews/mono_white_badges.json.png) ·
 [Black Badges](docs/previews/black_badges.json.png)
 
-## Raw URLs
+## 🔗 Raw URLs
 
 ### Formatters
 
@@ -74,7 +74,7 @@ formatter for instant matching.
 | Mono White | [mono_white_badges_v2.json](mono_white_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/mono_white_badges_v2.json) |
 | Black | [black_badges_v2.json](black_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/black_badges_v2.json) |
 
-## How To Import
+## 📥 How To Import
 
 For formatters: copy the formatter raw URL, open the formatter section in
 AIOStreams, and use **Import from URL**.
@@ -82,7 +82,7 @@ AIOStreams, and use **Import from URL**.
 For badge packs: copy the badge pack raw URL, then open
 **Nuvio Settings > Layout > Streams > Fusion Badge URLs** and add it there.
 
-## V1 vs V2
+## ⚡ V1 vs V2
 
 - **V1 badge packs** work with any formatter. They rely on Nuvio's normal badge
   matcher and inspect the available stream fields directly.
@@ -96,7 +96,24 @@ For badge packs: copy the badge pack raw URL, then open
   matcher fields do not provide consistent, dedicated language/subtitle data.
   Adding them to V1 would make the results incomplete and unreliable.
 
-## Badge Logic
+## 🛠️ Create a Custom V2 Formatter
+
+To make your own formatter compatible with the V2 badge packs:
+
+1. Copy the raw URL for
+   [`markers_for_custom_formatters.json`](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json).
+2. Open the AIOStreams formatter section and use **Import from URL**.
+3. Add your own visible formatter code before the existing marker code in the
+   `name` and `description` fields.
+4. Keep the invisible marker tokens unchanged. V2 badge packs read those tokens
+   to generate the badges.
+5. Keep each formatter field under the AIOStreams character limit. If one field
+   gets too long, move some marker blocks between `name` and `description`.
+6. If you do not need every Language or Subtitle badge, delete the unused
+   language/subtitle replace entries from the marker template to save space.
+7. Save the formatter, then import any V2 badge pack into Nuvio.
+
+## 🧠 Badge Logic
 
 The badge packs contain **100 V1 badges**. V2 contains the same badges plus
 **48 preferred-language badges** and **48 preferred-subtitle badges**, for
@@ -113,7 +130,7 @@ much detail.
 
 ![Nuvio Smart Tier List](docs/nuvio-smart-tier-list.png)
 
-## Included Badge Groups
+## 📦 Included Badge Groups
 
 | Group | Badges | Purpose |
 |---|---:|---|
