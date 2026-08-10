@@ -84,17 +84,23 @@ For badge packs: copy the badge pack raw URL, then open
 
 ## ⚡ V1 vs V2
 
-- **V1 badge packs** work with any formatter. They rely on Nuvio's normal badge
-  matcher and inspect the available stream fields directly.
-- **V2 badge packs** require one of the included marker-enabled formatters, or a
-  custom formatter using `markers_for_custom_formatters.json`. They use compact
-  hidden markers for instant matching.
-- **V2 adds Language and Subtitle badges.** These are generated only for the
-  languages and subtitles you selected as preferred in AIOStreams, so the badge
-  row stays focused instead of showing every detected option.
-- **V1 does not include Language or Subtitle badges** because Nuvio's normal
-  matcher fields do not provide consistent, dedicated language/subtitle data.
-  Adding them to V1 would make the results incomplete and unreliable.
+- All badge packs have **V1 and V2 versions**. The badge logic and appearance
+  are the same; the main difference is speed and formatter compatibility. V2
+  packs also include Language and Subtitle badges.
+- I did not add Language or Subtitle badges to V1 because Nuvio's badge matcher
+  scans general stream fields, and those fields do not provide consistent,
+  dedicated language/subtitle data.
+- The **V1 badge packs** work with any formatter. They use Nuvio's normal
+  badge-matching system, so there can be a small slowdown because Nuvio has to
+  scan and match the badge rules against the available stream fields.
+- The **V2 badge packs** skip the heavier matching process by reading hidden
+  markers embedded in marker-enabled formatters. Because badges are matched
+  directly from these markers, they load essentially instantly.
+- If you use one of the formatters provided above, use one of the **V2 badge
+  packs**. If you use a different custom formatter, use one of the **V1 badge
+  packs**. If you want to use a V2 badge pack with your own custom formatter,
+  follow the guide below to make your formatter compatible with the V2 marker
+  system.
 
 ## 🛠️ Create a Custom V2 Formatter
 
