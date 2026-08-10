@@ -81,6 +81,7 @@ formatter for instant matching.
 ## 📥 How To Import
 
 **For formatters:** copy the formatter raw URL, open the formatter section in AIOStreams, and use Import from URL.
+
 **For badge packs:** copy the badge pack raw URL, then open Nuvio Settings > Layout > Streams > Fusion Badge URLs and add it there.
 
 ## ⚡ V1 vs V2
