@@ -24,8 +24,8 @@ or mix any badge pack with any included formatter to create your own setup.
 ![Tinted badges preview](docs/previews/tinted_badges.json.png)
 
 Other Diagram Previews:
+[Default Colored Badges](docs/previews/badge.json.png) ·
 [Colored Outline Badges](docs/previews/colored_outline_badges.json.png) ·
-[Default Colored Badge](docs/previews/badge.json.png) ·
 [Solid Badges](docs/previews/solid_badges.json.png) ·
 [White Badges](docs/previews/white_badges.json.png) ·
 [Mono White Badges](docs/previews/mono_white_badges.json.png) ·
@@ -37,12 +37,12 @@ Other Diagram Previews:
 
 | Formatter | File | Raw URL |
 |---|---|---|
-| Normal | [normal_formatter.json](normal_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json) |
-| Minimalist with emojis | [minimalist_with_emojis.json](minimalist_with_emojis.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json) |
-| Minimalist without emojis | [minimalist_no_emojis.json](minimalist_no_emojis.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json) |
-| Tamtaro Instant | [tamtaro_instant_formatter.json](tamtaro_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json) |
-| Tamtaro Minimalist Instant | [tamtaro_minimalist_instant_formatter.json](tamtaro_minimalist_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json) |
-| Marker template for custom formatters | [markers_for_custom_formatters.json](markers_for_custom_formatters.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json) |
+| Normal | [normal_formatter](normal_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json) |
+| Minimalist with emojis | [minimalist_with_emojis(minimalist_with_emojis.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json) |
+| Minimalist without emojis | [minimalist_no_emojis](minimalist_no_emojis.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json) |
+| Tamtaro Default | [tamtaro_default_formatter](tamtaro_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json) |
+| Tamtaro Minimalist | [tamtaro_minimalist_formatter](tamtaro_minimalist_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json) |
+| Marker template for custom formatters | [markers_for_custom_formatters](markers_for_custom_formatters.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json) |
 
 **Note:** Only Tam’s default formatter exceeds the 5,000-character limit. If
 you want to use Tam’s default formatter with V2 badge packs, use the
@@ -55,9 +55,9 @@ V1 packs work with any formatter and use Nuvio's normal badge matching.
 | Style | File | Raw URL |
 |---|---|---|
 | Default Colored | [badge.json](badge.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/badge.json) |
+| Tinted | [tinted_badges.json](tinted_badges.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tinted_badges.json) |
 | Colored Outline | [colored_outline_badges.json](colored_outline_badges.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/colored_outline_badges.json) |
 | Solid | [solid_badges.json](solid_badges.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/solid_badges.json) |
-| Tinted | [tinted_badges.json](tinted_badges.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tinted_badges.json) |
 | White | [white_badges.json](white_badges.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/white_badges.json) |
 | Mono White | [mono_white_badges.json](mono_white_badges.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/mono_white_badges.json) |
 | Black | [black_badges.json](black_badges.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/black_badges.json) |
@@ -71,25 +71,24 @@ formatter for instant matching.
 | Style | File | Raw URL |
 |---|---|---|
 | Default Colored | [badge_v2.json](badge_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/badge_v2.json) |
+| Tinted | [tinted_badges_v2.json](tinted_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tinted_badges_v2.json) |
 | Colored Outline | [colored_outline_badges_v2.json](colored_outline_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/colored_outline_badges_v2.json) |
 | Solid | [solid_badges_v2.json](solid_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/solid_badges_v2.json) |
-| Tinted | [tinted_badges_v2.json](tinted_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tinted_badges_v2.json) |
 | White | [white_badges_v2.json](white_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/white_badges_v2.json) |
 | Mono White | [mono_white_badges_v2.json](mono_white_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/mono_white_badges_v2.json) |
 | Black | [black_badges_v2.json](black_badges_v2.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/black_badges_v2.json) |
 
 ## 📥 How To Import
 
-For formatters: copy the formatter raw URL, open the formatter section in
+**For formatters:** copy the formatter raw URL, open the formatter section in
 AIOStreams, and use **Import from URL**.
-
-For badge packs: copy the badge pack raw URL, then open
+**For badge packs:** copy the badge pack raw URL, then open
 **Nuvio Settings > Layout > Streams > Fusion Badge URLs** and add it there.
 
 ## ⚡ V1 vs V2
 
 - All badge packs have **V1 and V2 versions**. The badge logic and appearance
-  are the same; the main difference is speed and formatter compatibility. V2
+  are the same; the main difference is speed and compatibility. V2
   packs also include Language and Subtitle badges. Don't worry about them
   cluttering your badge row: the badge pack only generates badges for the
   languages and subtitles you set as preferred in your AIOStreams config. You
