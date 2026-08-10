@@ -38,7 +38,7 @@ Other Diagram Previews:
 | Formatter | File | Raw URL |
 |---|---|---|
 | Normal | [normal_formatter](normal_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/normal_formatter.json) |
-| Minimalist with emojis | [minimalist_with_emojis(minimalist_with_emojis.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json) |
+| Minimalist with emojis | [minimalist_with_emojis](minimalist_with_emojis.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_with_emojis.json) |
 | Minimalist without emojis | [minimalist_no_emojis](minimalist_no_emojis.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/minimalist_no_emojis.json) |
 | Tamtaro Default | [tamtaro_default_formatter](tamtaro_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_instant_formatter.json) |
 | Tamtaro Minimalist | [tamtaro_minimalist_formatter](tamtaro_minimalist_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json) |
