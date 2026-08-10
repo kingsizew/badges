@@ -44,6 +44,10 @@ Other Diagram Previews:
 | Tamtaro Minimalist Instant | [tamtaro_minimalist_instant_formatter.json](tamtaro_minimalist_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json) |
 | Marker template for custom formatters | [markers_for_custom_formatters.json](markers_for_custom_formatters.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json) |
 
+**Note:** Only Tam’s default formatter exceeds the 5,000-character limit. If
+you want to use Tam’s default formatter with V2 badge packs, use the
+[Kuu instance](https://aiostreams-nightly.206111.xyz/stremio/configure?menu=about&template=https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/main/Tamtaro-All-Templates-for-AIOStreams.json).
+
 ### V1 Badge Packs
 
 V1 packs work with any formatter and use Nuvio's normal badge matching.
@@ -86,7 +90,10 @@ For badge packs: copy the badge pack raw URL, then open
 
 - All badge packs have **V1 and V2 versions**. The badge logic and appearance
   are the same; the main difference is speed and formatter compatibility. V2
-  packs also include Language and Subtitle badges.
+  packs also include Language and Subtitle badges. These badges are generated
+  only for the preferred languages and subtitles selected in AIOStreams, so the
+  badge row stays focused instead of showing every detected language/subtitle
+  option.
 - I did not add Language or Subtitle badges to V1 because Nuvio's badge matcher
   scans general stream fields, and those fields do not provide consistent,
   dedicated language/subtitle data.
