@@ -90,10 +90,10 @@ For badge packs: copy the badge pack raw URL, then open
 
 - All badge packs have **V1 and V2 versions**. The badge logic and appearance
   are the same; the main difference is speed and formatter compatibility. V2
-  packs also include Language and Subtitle badges. These badges are generated
-  only for the preferred languages and subtitles selected in AIOStreams, so the
-  badge row stays focused instead of showing every detected language/subtitle
-  option.
+  packs also include Language and Subtitle badges. Don't worry about them
+  cluttering your badge row: the badge pack only generates badges for the
+  languages and subtitles you set as preferred in your AIOStreams config. You
+  do not have to do anything else.
 - I did not add Language or Subtitle badges to V1 because Nuvio's badge matcher
   scans general stream fields, and those fields do not provide consistent,
   dedicated language/subtitle data.
