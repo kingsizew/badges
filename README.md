@@ -128,9 +128,7 @@ To make your own formatter compatible with the V2 badge packs:
 
 ## 🧠 Badge Logic
 
-The badge packs contain **100 V1 badges**. V2 contains the same badges plus
-**48 preferred-language badges** and **48 preferred-subtitle badges**, for
-**196 V2 badges** total.
+Each V1 badge pack contains 100 badges. Each V2 badge pack contains those same badges plus 48 preferred-language badges and 48 preferred-subtitle badges, for 196 V2 badges total.
 
 Ranked technical badge groups use five color tiers:
 
