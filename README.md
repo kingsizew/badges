@@ -21,15 +21,15 @@ that pack looks when combined with a formatter on real stream results.
 Use these previews to choose a ready-made badge pack + formatter combination,
 or mix any badge pack with any included formatter to create your own setup.
 
-![Tinted badges preview](docs/previews/tinted_badges.json.png)
+![Tinted badges preview](https://kingsizew.github.io/badges/previews/tinted_badges.json.png)
 
 Other Diagram Previews:
-[Default Colored Badges](docs/previews/badge.json.png) ·
-[Colored Outline Badges](docs/previews/colored_outline_badges.json.png) ·
-[Solid Badges](docs/previews/solid_badges.json.png) ·
-[White Badges](docs/previews/white_badges.json.png) ·
-[Mono White Badges](docs/previews/mono_white_badges.json.png) ·
-[Black Badges](docs/previews/black_badges.json.png)
+[Colored Outline Badges](https://kingsizew.github.io/badges/previews/colored_outline_badges.json.png) ·
+[Default Colored Badges](https://kingsizew.github.io/badges/previews/badge.json.png) ·
+[Solid Badges](https://kingsizew.github.io/badges/previews/solid_badges.json.png) ·
+[White Badges](https://kingsizew.github.io/badges/previews/white_badges.json.png) ·
+[Mono White Badges](https://kingsizew.github.io/badges/previews/mono_white_badges.json.png) ·
+[Black Badges](https://kingsizew.github.io/badges/previews/black_badges.json.png)
 
 ## 🔗 Raw URLs
 
