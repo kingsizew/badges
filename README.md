@@ -1,6 +1,7 @@
 # 🎨 Kingsize Fusion Badges & AIOStreams Formatters
 
 A collection of Fusion Badge packs and AIOStreams formatters for apps featuring Fusion Badges, such as [**AIOStreams**](https://github.com/Viren070/AIOStreams), [**Nuvio**](https://github.com/NuvioMedia)...
+
 The badge packs turn stream metadata into compact visual badges for source, resolution, quality, HDR, audio, channels, encoder, streaming service, language, subtitles, and special tags.
 
 The repo includes 7 badge styles, V1 badge packs for any formatter, Instant V2
@@ -73,8 +74,9 @@ formatter for instant matching.
 
 **Formatters:** Copy the formatter's raw URL, open the formatter section in AIOStreams, and use Import from URL.
 
-**Badge packs:** 
-For AIOStreams, copy the badge pack's raw URL, then open Settings > Playback > Versions > Badges and add it here.
+**Badge packs:**
+
+For AIOStreams, copy the badge pack's raw URL, then open Settings > Playback > Versions > Badges and add it here.  
 For Nuvio, copy the badge pack's raw URL, then open Settings > Layout > Streams > Fusion Badge URLs and add it there.
 
 ## ⚡ V1 vs V2
