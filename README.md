@@ -1,16 +1,11 @@
-# 🎨 Kingsize Nuvio Badges
+# 🎨 Kingsize Fusion Badges & AIOStreams Formatters
 
-Kingsize Nuvio Badges is a badge pack and formatter set for
-[Nuvio](https://github.com/NuvioMedia). It turns stream metadata into compact
-visual badges for source, resolution, quality, HDR, audio, channels, encoder,
-streaming service, language, subtitles, and special tags.
+A collection of Fusion Badge packs and AIOStreams formatters for apps featuring Fusion Badges, such as [**AIOStreams**](https://github.com/Viren070/AIOStreams), [**Nuvio**](https://github.com/NuvioMedia)...
+The badge packs turn stream metadata into compact visual badges for source, resolution, quality, HDR, audio, channels, encoder, streaming service, language, subtitles, and special tags.
 
 The repo includes 7 badge styles, V1 badge packs for any formatter, Instant V2
 badge packs for marker-enabled AIOStreams formatters, 5 ready-to-use formatters,
 and a marker template for custom formatters.
-
-> **Note:** For the best and smoothest Nuvio experience, you'll need a debrid service, and currently, [***TorBox***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) is the most affordable and highly recommended one. You can also share your Nuvio setup with your friends/family to use it together. If it's your first ever purchase, use my [***referral***](https://torbox.app/subscription?referral=83bdd6a7-e951-4a82-8be4-99e5c6c97074) and we both get +84 extra days on a yearly plan or +7 extra days on a monthly one.  
-> **Referral Code:** 83bdd6a7-e951-4a82-8be4-99e5c6c97074
 
 ## 🖼️ Diagram Previews
 
@@ -44,13 +39,9 @@ Other Diagram Previews:
 | Tamtaro Minimalist | [tamtaro_minimalist_formatter](tamtaro_minimalist_instant_formatter.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/tamtaro_minimalist_instant_formatter.json) |
 | Marker template for custom formatters | [markers_for_custom_formatters](markers_for_custom_formatters.json) | [Raw URL](https://raw.githubusercontent.com/kingsizew/badges/main/markers_for_custom_formatters.json) |
 
-**Note:** Only Tam’s default formatter exceeds the 5,000-character limit. If
-you want to use Tam’s default formatter with V2 badge packs, use the
-[Kuu instance](https://aiostreams-nightly.206111.xyz/stremio/configure?menu=about&template=https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/main/Tamtaro-All-Templates-for-AIOStreams.json).
-
 ### V1 Badge Packs
 
-V1 packs work with any formatter and use Nuvio's normal badge matching.
+V1 packs work with any formatter and use the standard badge matching.
 
 | Style | File | Raw URL |
 |---|---|---|
@@ -80,24 +71,26 @@ formatter for instant matching.
 
 ## 📥 How To Import
 
-**For formatters:** copy the formatter raw URL, open the formatter section in AIOStreams, and use Import from URL.
+**Formatters:** Copy the formatter's raw URL, open the formatter section in AIOStreams, and use Import from URL.
 
-**For badge packs:** copy the badge pack raw URL, then open Nuvio Settings > Layout > Streams > Fusion Badge URLs and add it there.
+**Badge packs:** 
+For AIOStreams, copy the badge pack's raw URL, then open Settings > Playback > Versions > Badges and add it here.
+For Nuvio, copy the badge pack's raw URL, then open Settings > Layout > Streams > Fusion Badge URLs and add it there.
 
 ## ⚡ V1 vs V2
 
-- All badge packs have **V1 and V2 versions**. The badge logic and appearance
-  are the same; the main difference is speed and compatibility. V2
-  packs also include Language and Subtitle badges. Don't worry about them
-  cluttering your badge row: the badge pack only generates badges for the
-  languages and subtitles you set as preferred in your AIOStreams config. You
-  do not have to do anything else.
-- I did not add Language or Subtitle badges to V1 because Nuvio's badge matcher
+- All badge packs have **V1 and V2 versions**. The badges shared by both 
+  versions have the same logic and appearance; the main differences are 
+  speed and compatibility. V2 packs also include Language and Subtitle badges. 
+  Don't worry about them cluttering your badge row: the badge pack only generates 
+  badges for the languages and subtitles you set as preferred in your AIOStreams config. 
+  You do not have to do anything else.
+- I did not add Language or Subtitle badges to V1 because the badge matcher
   scans general stream fields, and those fields do not provide consistent,
   dedicated language/subtitle data.
-- The **V1 badge packs** work with any formatter. They use Nuvio's normal
-  badge-matching system, so there can be a small slowdown because Nuvio has to
-  scan and match the badge rules against the available stream fields.
+- The **V1 badge packs** work with any formatter. They use the standard
+  badge-matching system, so there can be a small slowdown because the badge matcher 
+  has to scan and match the badge rules against the available stream fields.
 - The **V2 badge packs** skip the heavier matching process by reading hidden
   markers embedded in marker-enabled formatters. Because badges are matched
   directly from these markers, they load essentially instantly.
@@ -118,11 +111,7 @@ To make your own formatter compatible with the V2 badge packs:
    `name` and `description` fields.
 4. Keep the invisible marker tokens unchanged. V2 badge packs read those tokens
    to generate the badges.
-5. Keep each formatter field under the AIOStreams character limit. If one field
-   gets too long, move some marker blocks between `name` and `description`.
-6. If you do not need every Language or Subtitle badge, delete the unused
-   language/subtitle replace entries from the marker template to save space.
-7. Save the formatter, then import any V2 badge pack into Nuvio.
+5. Save the formatter, then import any V2 badge pack.
 
 ## 🧠 Badge Logic
 
@@ -137,7 +126,7 @@ group. Visual and Audio badges use Smart Tier logic instead, so useful
 compatibility information can stay visible when one simple winner would hide too
 much detail.
 
-![Nuvio Smart Tier List](docs/nuvio-smart-tier-list.png)
+![Smart Tier List](docs/nuvio-smart-tier-list.png)
 
 ## 📦 Included Badge Groups
 
